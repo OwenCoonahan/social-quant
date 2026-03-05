@@ -106,6 +106,34 @@ async def update_settings(settings: dict):
     conn.close()
     return {"status": "ok"}
 
+# --- Buffer Integration ---
+@app.post("/api/buffer/publish")
+async def buffer_publish(payload: dict):
+    """Proxy to Buffer API for publishing/scheduling posts."""
+    access_token = payload.get("access_token", "")
+    text = payload.get("text", "")
+    profile_ids = payload.get("profile_ids", [])
+    now = payload.get("now", False)
+    scheduled_at = payload.get("scheduled_at")
+    
+    if not access_token or not text or not profile_ids:
+        raise HTTPException(400, "Missing required fields: access_token, text, profile_ids")
+    
+    import httpx
+    data = {
+        "access_token": access_token,
+        "text": text,
+        "profile_ids[]": profile_ids,
+    }
+    if now:
+        data["now"] = "true"
+    if scheduled_at:
+        data["scheduled_at"] = scheduled_at
+    
+    async with httpx.AsyncClient() as client:
+        resp = await client.post("https://api.bufferapp.com/1/updates/create.json", data=data, timeout=15)
+        return resp.json()
+
 # Serve static frontend
 STATIC_DIR = os.path.join(os.path.dirname(__file__), "..")
 if os.path.exists(os.path.join(STATIC_DIR, "index.html")):

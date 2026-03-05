@@ -41,6 +41,7 @@ function navigateTo(page) {
     feed: { title: 'Post Feed', render: renderFeed },
     analytics: { title: 'Analytics', render: renderAnalytics },
     swipefile: { title: 'Swipe File', render: renderSwipeFile },
+    topicbank: { title: 'Topic Bank', render: renderTopicBank },
     myposts: { title: 'My Posts', render: renderMyPosts },
     settings: { title: 'Settings', render: renderSettings },
   };
@@ -63,6 +64,7 @@ function renderSidebar() {
     { page: 'analytics', icon: '📈', label: 'Analytics' },
     { divider: true },
     { page: 'swipefile', icon: '💾', label: 'Swipe File' },
+    { page: 'topicbank', icon: '💡', label: 'Topics' },
     { page: 'myposts', icon: '✍️', label: 'My Posts' },
     { divider: true },
     { page: 'settings', icon: '⚙️', label: 'Settings' },
@@ -145,17 +147,21 @@ function renderDashboard(container, headerActions) {
   const topPosts = [...allPosts].sort((a, b) => b.engagementRate - a.engagementRate).slice(0, 5);
   document.getElementById('top-posts-dash').innerHTML = topPosts.map((p, i) => {
     const account = ALL_ACCOUNTS.find(a => a.id === p.accountId);
+    const tweetUrl = p.tweetUrl || '';
     return `<div class="top-post-item">
       <div class="top-post-rank">#${i + 1}</div>
       <div style="flex:1">
         <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px;">
+          ${account?.avatarUrl ? `<img src="${account.avatarUrl}" style="width:20px;height:20px;border-radius:50%;object-fit:cover;">` : ''}
           <span class="platform-badge ${p.platform}">${getPlatformIcon(p.platform)}</span>
           <span style="font-size:12px;font-weight:600;">${account?.name || 'Unknown'}</span>
           <span style="font-size:11px;color:var(--text-muted)">${account?.handle}</span>
           <span class="post-type-badge">${getPostTypeIcon(p.type)} ${p.type}</span>
+          ${tweetUrl ? `<a href="${tweetUrl}" target="_blank" style="font-size:10px;color:var(--blue);margin-left:4px;">↗</a>` : ''}
           <span style="font-size:11px;color:var(--text-muted);margin-left:auto">${formatDate(p.timestamp)}</span>
         </div>
         <div class="top-post-content">${escapeHtml(truncate(p.content, 180))}</div>
+        ${p.media?.length ? `<div style="display:flex;gap:4px;margin:4px 0;">${p.media.slice(0,2).map(m => `<img src="${m.url || m.thumbnail}" style="height:48px;border-radius:4px;object-fit:cover;" onerror="this.style.display='none'">`).join('')}</div>` : ''}
         <div class="top-post-stats">
           <span class="post-stat"><span class="icon">❤️</span><span class="value">${formatNumber(p.likes)}</span></span>
           <span class="post-stat"><span class="icon">🔁</span><span class="value">${formatNumber(p.retweets)}</span></span>
@@ -312,10 +318,36 @@ function filterFeed() {
 function renderPostCard(p) {
   const account = ALL_ACCOUNTS.find(a => a.id === p.accountId);
   const isSaved = APP.swipeFile.some(s => s.postId === p.id);
+  const avatarDisplay = account?.avatarUrl
+    ? `<img src="${account.avatarUrl}" style="width:32px;height:32px;border-radius:50%;object-fit:cover;" onerror="this.outerHTML='<div class=post-avatar>${account?.avatar || '?'}</div>'">`
+    : `<div class="post-avatar">${account?.avatar || '?'}</div>`;
+
+  // Media rendering
+  let mediaHtml = '';
+  if (p.media && p.media.length > 0) {
+    const mediaItems = p.media.slice(0, 4).map(m => {
+      if (m.type === 'video') {
+        return `<div class="post-media-item post-media-video" onclick="window.open('${p.tweetUrl || '#'}','_blank')">
+          <img src="${m.thumbnail || m.url}" alt="Video thumbnail" loading="lazy" onerror="this.parentElement.style.display='none'">
+          <div class="post-media-play">▶</div>
+        </div>`;
+      }
+      return `<div class="post-media-item">
+        <img src="${m.url}" alt="Post media" loading="lazy" onerror="this.parentElement.style.display='none'">
+      </div>`;
+    }).join('');
+    mediaHtml = `<div class="post-media-grid post-media-${Math.min(p.media.length, 4)}">${mediaItems}</div>`;
+  }
+
+  // Tweet URL
+  const tweetUrl = p.tweetUrl || (p.platform === 'twitter' && account ? `https://x.com/${account.handle?.replace('@','')}` : '');
+  const linkUrl = p.linkUrl || tweetUrl;
+  const viewOriginal = linkUrl ? `<a href="${linkUrl}" target="_blank" rel="noopener" class="post-action-btn view-original">↗ View Original</a>` : '';
+
   return `<div class="card post-card">
     <div class="post-header">
       <div class="post-account">
-        <div class="post-avatar">${account?.avatar || '?'}</div>
+        ${avatarDisplay}
         <div class="post-meta">
           <div style="display:flex;align-items:center;gap:6px;">
             <span class="name">${account?.name || 'Unknown'}</span>
@@ -328,17 +360,20 @@ function renderPostCard(p) {
       <span class="post-time">${formatDate(p.timestamp)}</span>
     </div>
     <div class="post-content">${escapeHtml(p.content)}</div>
+    ${mediaHtml}
     <div class="post-stats">
       <span class="post-stat"><span class="icon">❤️</span><span class="value">${formatNumber(p.likes)}</span></span>
       <span class="post-stat"><span class="icon">🔁</span><span class="value">${formatNumber(p.retweets)}</span></span>
       <span class="post-stat"><span class="icon">💬</span><span class="value">${formatNumber(p.replies)}</span></span>
       <span class="post-stat"><span class="icon">🔖</span><span class="value">${formatNumber(p.bookmarks || 0)}</span></span>
+      ${p.views ? `<span class="post-stat"><span class="icon">👁️</span><span class="value">${formatNumber(p.views)}</span></span>` : ''}
       <span class="post-engagement">${p.engagementRate}% eng</span>
     </div>
     <div class="post-actions">
       <button class="post-action-btn ${isSaved ? 'saved' : ''}" onclick="toggleSwipeFile('${p.id}')">
         ${isSaved ? '✓ Saved' : '💾 Save to Swipe File'}
       </button>
+      ${viewOriginal}
       <span style="margin-left:auto;font-size:10px;color:var(--text-muted);font-family:var(--font-mono);">
         Weighted: ${formatNumber(calcWeightedEngagement(p))} · Total: ${formatNumber(calcTotalEngagement(p))}
       </span>
@@ -574,6 +609,7 @@ function renderMyPosts(container) {
           <span class="char-count" id="char-count">0 / 280</span>
           <div class="draft-actions">
             <button class="btn btn-secondary btn-sm" onclick="saveDraft()">Save Draft</button>
+            <button class="btn btn-primary btn-sm" onclick="showBufferModal(document.getElementById('draft-text')?.value || '')">📤 Schedule via Buffer</button>
           </div>
         </div>
       </div>
@@ -617,6 +653,291 @@ function saveDraft() {
   renderMyPosts(document.getElementById('main-content'));
 }
 
+// ===== TOPIC BANK =====
+let topicBankState = { expanded: null, draftTopicId: null };
+
+function renderTopicBank(container, headerActions) {
+  headerActions.innerHTML = `
+    <div class="feed-controls">
+      <select class="feed-filter" id="topic-status-filter" onchange="filterTopics()">
+        <option value="all">All Statuses</option>
+        ${TOPIC_STATUSES.map(s => `<option value="${s}">${s}</option>`).join('')}
+      </select>
+      <select class="feed-filter" id="topic-pillar-filter" onchange="filterTopics()">
+        <option value="all">All Pillars</option>
+        ${PILLARS.map(p => `<option value="${p}">${p}</option>`).join('')}
+      </select>
+      <select class="feed-filter" id="topic-platform-filter" onchange="filterTopics()">
+        <option value="all">All Platforms</option>
+        <option value="twitter">Twitter</option>
+        <option value="linkedin">LinkedIn</option>
+        <option value="Both">Both</option>
+      </select>
+      <select class="feed-filter" id="topic-level-filter" onchange="filterTopics()">
+        <option value="all">All Levels</option>
+        ${POST_LEVELS.map(l => `<option value="${l}">${l}</option>`).join('')}
+      </select>
+      <select class="feed-filter" id="topic-type-filter" onchange="filterTopics()">
+        <option value="all">All Types</option>
+        ${TOPIC_TYPES.map(t => `<option value="${t}">${t}</option>`).join('')}
+      </select>
+      <button class="btn btn-primary btn-sm" onclick="toggleQuickAdd()">+ Add Topic</button>
+    </div>
+  `;
+  container.innerHTML = `
+    <div class="fade-in">
+      <div id="quick-add-form" style="display:none;margin-bottom:20px;">
+        <div class="card">
+          <h3 style="font-size:14px;font-weight:600;margin-bottom:12px;">➕ Quick Add Topic</h3>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+            <div class="modal-field"><label>Title</label><input id="qa-title" placeholder="Topic title..."></div>
+            <div class="modal-field"><label>Platform</label>
+              <select id="qa-platform"><option value="Both">Both</option><option value="twitter">Twitter</option><option value="linkedin">LinkedIn</option></select>
+            </div>
+            <div class="modal-field" style="grid-column:span 2;"><label>Description / Angle</label><input id="qa-desc" placeholder="1-2 sentence angle..."></div>
+            <div class="modal-field"><label>Pillar</label>
+              <select id="qa-pillar">${PILLARS.map(p => `<option value="${p}">${p}</option>`).join('')}</select>
+            </div>
+            <div class="modal-field"><label>Level</label>
+              <select id="qa-level">${POST_LEVELS.map(l => `<option value="${l}">${l}</option>`).join('')}</select>
+            </div>
+            <div class="modal-field"><label>Type</label>
+              <select id="qa-type">${TOPIC_TYPES.map(t => `<option value="${t}">${t}</option>`).join('')}</select>
+            </div>
+          </div>
+          <div style="display:flex;gap:8px;margin-top:12px;">
+            <button class="btn btn-primary btn-sm" onclick="addTopic()">Add Topic</button>
+            <button class="btn btn-ghost btn-sm" onclick="toggleQuickAdd()">Cancel</button>
+          </div>
+        </div>
+      </div>
+      <div class="stats-grid" style="margin-bottom:20px;">
+        <div class="card stat-card"><div class="stat-value">${MOCK_TOPICS.length}</div><div class="stat-label">Total Topics</div></div>
+        <div class="card stat-card"><div class="stat-value">${MOCK_TOPICS.filter(t=>t.status==='💡 Idea').length}</div><div class="stat-label">Ideas</div></div>
+        <div class="card stat-card"><div class="stat-value">${MOCK_TOPICS.filter(t=>t.status==='✍️ Drafting').length}</div><div class="stat-label">Drafting</div></div>
+        <div class="card stat-card"><div class="stat-value">${MOCK_TOPICS.filter(t=>t.status==='✅ Posted').length}</div><div class="stat-label">Posted</div></div>
+      </div>
+      <div id="topic-list"></div>
+    </div>
+  `;
+  filterTopics();
+}
+
+function toggleQuickAdd() {
+  const form = document.getElementById('quick-add-form');
+  if (form) form.style.display = form.style.display === 'none' ? 'block' : 'none';
+}
+
+function addTopic() {
+  const title = document.getElementById('qa-title')?.value?.trim();
+  const desc = document.getElementById('qa-desc')?.value?.trim();
+  if (!title) return;
+  MOCK_TOPICS.unshift({
+    id: 'topic' + Date.now(),
+    title,
+    description: desc || '',
+    platform: document.getElementById('qa-platform')?.value || 'Both',
+    pillar: document.getElementById('qa-pillar')?.value || 'Grid',
+    level: document.getElementById('qa-level')?.value || 'L2',
+    type: document.getElementById('qa-type')?.value || 'hot take',
+    status: '💡 Idea',
+    createdAt: new Date().toISOString(),
+    examples: [],
+  });
+  toggleQuickAdd();
+  renderTopicBank(document.getElementById('main-content'), document.getElementById('header-actions'));
+}
+
+function filterTopics() {
+  const status = document.getElementById('topic-status-filter')?.value || 'all';
+  const pillar = document.getElementById('topic-pillar-filter')?.value || 'all';
+  const platform = document.getElementById('topic-platform-filter')?.value || 'all';
+  const level = document.getElementById('topic-level-filter')?.value || 'all';
+  const type = document.getElementById('topic-type-filter')?.value || 'all';
+
+  let topics = [...MOCK_TOPICS];
+  if (status !== 'all') topics = topics.filter(t => t.status === status);
+  if (pillar !== 'all') topics = topics.filter(t => t.pillar === pillar);
+  if (platform !== 'all') topics = topics.filter(t => t.platform === platform);
+  if (level !== 'all') topics = topics.filter(t => t.level === level);
+  if (type !== 'all') topics = topics.filter(t => t.type === type);
+
+  const list = document.getElementById('topic-list');
+  if (!list) return;
+  list.innerHTML = topics.map(t => renderTopicCard(t)).join('');
+}
+
+function renderTopicCard(t) {
+  const isExpanded = topicBankState.expanded === t.id;
+  const isDrafting = topicBankState.draftTopicId === t.id;
+  const statusColors = { '💡 Idea': 'var(--yellow)', '✍️ Drafting': 'var(--blue)', '✅ Posted': 'var(--green)' };
+  const pillarBadge = `badge-${t.pillar.toLowerCase().replace(/[+&\s]/g, match => match === '+' ? '\\+' : match === '&' ? '' : '-')}`;
+
+  return `<div class="card" style="margin-bottom:12px;border-left:3px solid ${statusColors[t.status] || 'var(--border)'};">
+    <div style="cursor:pointer;" onclick="toggleTopicExpand('${t.id}')">
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+        <span style="font-size:14px;font-weight:600;flex:1;min-width:200px;">${escapeHtml(t.title)}</span>
+        <span style="font-size:11px;padding:2px 8px;border-radius:99px;background:${statusColors[t.status]}20;color:${statusColors[t.status]};font-weight:600;">${t.status}</span>
+        <span class="account-badge badge-${t.pillar.toLowerCase()}" style="font-size:10px;">${t.pillar}</span>
+        <span class="post-type-badge">${t.level}</span>
+        <span class="post-type-badge">${t.type}</span>
+        <span class="platform-badge ${t.platform === 'Both' ? 'twitter' : t.platform}" style="font-size:10px;">${t.platform === 'Both' ? '𝕏+in' : getPlatformIcon(t.platform)}</span>
+        <span style="font-size:11px;color:var(--text-muted);">${formatDate(t.createdAt)}</span>
+      </div>
+      <p style="font-size:12px;color:var(--text-secondary);margin-top:6px;">${escapeHtml(t.description)}</p>
+    </div>
+    ${isExpanded ? renderTopicExpanded(t, isDrafting) : ''}
+  </div>`;
+}
+
+function renderTopicExpanded(t, isDrafting) {
+  const examplesHtml = (t.examples || []).map((ex, i) => `
+    <div style="padding:12px;background:var(--bg-tertiary);border-radius:var(--radius);margin-bottom:8px;">
+      <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+        <span class="platform-badge ${ex.platform}">${getPlatformIcon(ex.platform)}</span>
+        <span style="font-size:11px;font-weight:600;color:var(--text-secondary);">${ex.label}</span>
+        <button class="btn btn-ghost btn-sm" style="margin-left:auto;font-size:10px;" onclick="event.stopPropagation();prefillDraft('${t.id}',${i})">Use as Draft →</button>
+      </div>
+      <div style="font-size:12px;color:var(--text-primary);white-space:pre-wrap;line-height:1.6;">${escapeHtml(ex.content)}</div>
+    </div>
+  `).join('');
+
+  return `
+    <div style="margin-top:12px;border-top:1px solid var(--border);padding-top:12px;" onclick="event.stopPropagation()">
+      ${t.examples.length > 0 ? `<h4 style="font-size:12px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px;">Example Posts (${t.examples.length})</h4>${examplesHtml}` : '<p style="font-size:12px;color:var(--text-muted);margin-bottom:8px;">No example posts yet.</p>'}
+      
+      <div style="display:flex;gap:8px;margin-top:12px;flex-wrap:wrap;">
+        <button class="btn btn-primary btn-sm" onclick="openTopicDraft('${t.id}')">✏️ Write Post</button>
+        <button class="btn btn-secondary btn-sm" onclick="cycleTopicStatus('${t.id}')">Cycle Status →</button>
+        <div style="margin-left:auto;display:flex;gap:6px;">
+          ${TOPIC_STATUSES.map(s => `<button class="btn btn-ghost btn-sm" style="font-size:10px;${t.status===s?'color:var(--green);':''}" onclick="setTopicStatus('${t.id}','${s}')">${s}</button>`).join('')}
+        </div>
+      </div>
+
+      ${isDrafting ? renderTopicDraftWorkspace(t) : ''}
+    </div>
+  `;
+}
+
+function renderTopicDraftWorkspace(t) {
+  const draftId = `topic-draft-${t.id}`;
+  return `
+    <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border);">
+      <h4 style="font-size:12px;font-weight:600;color:var(--green);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px;">✏️ Draft Workspace — ${escapeHtml(t.title)}</h4>
+      <div style="display:flex;gap:8px;margin-bottom:8px;">
+        <select class="feed-filter" id="${draftId}-platform" onchange="updateTopicDraftCount('${t.id}')" style="padding-right:28px;">
+          <option value="twitter" ${t.platform==='twitter'?'selected':''}>Twitter (280 chars)</option>
+          <option value="linkedin" ${t.platform==='linkedin'?'selected':''}>LinkedIn (3000 chars)</option>
+        </select>
+        <span class="pillar-tag">${t.pillar}</span>
+        <span class="post-type-badge">${t.level} · ${t.type}</span>
+      </div>
+      <textarea class="draft-textarea" id="${draftId}-text" placeholder="Write your post about: ${escapeHtml(t.title)}..." oninput="updateTopicDraftCount('${t.id}')" style="min-height:140px;"></textarea>
+      <div class="draft-footer">
+        <span class="char-count" id="${draftId}-count">0 / 280</span>
+        <div class="draft-actions">
+          <button class="btn btn-secondary btn-sm" onclick="saveTopicDraft('${t.id}')">💾 Save Draft</button>
+          <button class="btn btn-primary btn-sm" onclick="showBufferModal(document.getElementById('topic-draft-${t.id}-text')?.value || '')">📤 Buffer</button>
+          <button class="btn btn-primary btn-sm" onclick="markTopicPosted('${t.id}')">✅ Mark as Posted</button>
+          <button class="btn btn-ghost btn-sm" onclick="closeTopicDraft('${t.id}')">Cancel</button>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function toggleTopicExpand(id) {
+  topicBankState.expanded = topicBankState.expanded === id ? null : id;
+  topicBankState.draftTopicId = null;
+  filterTopics();
+}
+
+function openTopicDraft(id) {
+  topicBankState.draftTopicId = id;
+  filterTopics();
+  // scroll to draft area
+  setTimeout(() => {
+    const el = document.getElementById(`topic-draft-${id}-text`);
+    if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.focus(); }
+  }, 50);
+}
+
+function closeTopicDraft(id) {
+  topicBankState.draftTopicId = null;
+  filterTopics();
+}
+
+function prefillDraft(topicId, exampleIdx) {
+  const topic = MOCK_TOPICS.find(t => t.id === topicId);
+  if (!topic || !topic.examples[exampleIdx]) return;
+  topicBankState.draftTopicId = topicId;
+  filterTopics();
+  setTimeout(() => {
+    const ex = topic.examples[exampleIdx];
+    const textarea = document.getElementById(`topic-draft-${topicId}-text`);
+    const platformSelect = document.getElementById(`topic-draft-${topicId}-platform`);
+    if (textarea) textarea.value = ex.content;
+    if (platformSelect) platformSelect.value = ex.platform;
+    updateTopicDraftCount(topicId);
+    textarea?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    textarea?.focus();
+  }, 50);
+}
+
+function updateTopicDraftCount(topicId) {
+  const draftId = `topic-draft-${topicId}`;
+  const text = document.getElementById(`${draftId}-text`)?.value || '';
+  const platform = document.getElementById(`${draftId}-platform`)?.value || 'twitter';
+  const limit = platform === 'twitter' ? 280 : 3000;
+  const counter = document.getElementById(`${draftId}-count`);
+  if (counter) {
+    counter.textContent = `${text.length} / ${limit}`;
+    counter.classList.toggle('over', text.length > limit);
+  }
+}
+
+function saveTopicDraft(topicId) {
+  const draftId = `topic-draft-${topicId}`;
+  const text = document.getElementById(`${draftId}-text`)?.value?.trim();
+  if (!text) return;
+  const platform = document.getElementById(`${draftId}-platform`)?.value || 'twitter';
+  const topic = MOCK_TOPICS.find(t => t.id === topicId);
+  APP.drafts.unshift({
+    id: 'd' + Date.now(),
+    platform,
+    content: text,
+    pillar: topic?.pillar || '',
+    createdAt: new Date().toISOString(),
+  });
+  // Update topic status to drafting
+  if (topic && topic.status === '💡 Idea') topic.status = '✍️ Drafting';
+  topicBankState.draftTopicId = null;
+  filterTopics();
+}
+
+function markTopicPosted(topicId) {
+  const topic = MOCK_TOPICS.find(t => t.id === topicId);
+  if (topic) topic.status = '✅ Posted';
+  // Also save draft if there's content
+  saveTopicDraft(topicId);
+  topicBankState.draftTopicId = null;
+  filterTopics();
+}
+
+function cycleTopicStatus(id) {
+  const topic = MOCK_TOPICS.find(t => t.id === id);
+  if (!topic) return;
+  const idx = TOPIC_STATUSES.indexOf(topic.status);
+  topic.status = TOPIC_STATUSES[(idx + 1) % TOPIC_STATUSES.length];
+  filterTopics();
+}
+
+function setTopicStatus(id, status) {
+  const topic = MOCK_TOPICS.find(t => t.id === id);
+  if (topic) topic.status = status;
+  filterTopics();
+}
+
 // ===== SETTINGS =====
 function renderSettings(container) {
   container.innerHTML = `
@@ -650,6 +971,20 @@ function renderSettings(container) {
           <div class="setting-label">Auto-refresh Interval<div class="desc">How often to fetch new data (minutes)</div></div>
           <input class="setting-input" type="number" min="5" max="120" value="${APP.settings.refreshInterval}" onchange="APP.settings.refreshInterval=parseInt(this.value)" style="width:100px;">
         </div>
+      </div>
+      
+      <div class="settings-section">
+        <h3>📤 Buffer Integration</h3>
+        <div class="setting-row">
+          <div class="setting-label">Buffer API Key<div class="desc">Access token for Buffer publishing API</div></div>
+          <input class="setting-input" type="password" id="buffer-api-key" placeholder="Enter Buffer API key..." value="${APP.settings.bufferApiKey || ''}" onchange="APP.settings.bufferApiKey=this.value">
+        </div>
+        <div class="setting-row">
+          <div class="setting-label">Test Connection<div class="desc">Verify your Buffer API key and see connected profiles</div></div>
+          <button class="btn btn-secondary btn-sm" onclick="testBufferConnection()">🔌 Test Connection</button>
+        </div>
+        <div id="buffer-profiles" style="margin-top:12px;"></div>
+        <div id="buffer-queue" style="margin-top:12px;"></div>
       </div>
       
       <div class="settings-section">
@@ -736,6 +1071,194 @@ function toggleTheme() {
   document.body.classList.toggle('light-mode');
   const isLight = document.body.classList.contains('light-mode');
   localStorage.setItem('sq-theme', isLight ? 'light' : 'dark');
-  // Re-render current page to update charts
   navigateTo(APP.currentPage);
+}
+
+// ===== BUFFER INTEGRATION =====
+const BUFFER_API_BASE = 'https://api.bufferapp.com/1/';
+
+function getBufferKey() {
+  return APP.settings.bufferApiKey || '3tvNQCHMNmsTTm4i1gFBJMtpS-MvTHB6ythigBiYqpa';
+}
+
+async function testBufferConnection() {
+  const key = getBufferKey();
+  if (!key) { alert('Enter a Buffer API key first'); return; }
+  const el = document.getElementById('buffer-profiles');
+  el.innerHTML = '<div style="color:var(--text-muted);font-size:12px;">Testing connection...</div>';
+  try {
+    const r = await fetch(`${BUFFER_API_BASE}profiles.json?access_token=${key}`);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const profiles = await r.json();
+    APP.bufferProfiles = profiles;
+    el.innerHTML = `<div class="card" style="margin-top:8px;">
+      <div style="font-size:12px;color:var(--green);margin-bottom:8px;">✅ Connected! ${profiles.length} profile(s) found:</div>
+      ${profiles.map(p => `<div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
+        ${p.avatar_https ? `<img src="${p.avatar_https}" style="width:28px;height:28px;border-radius:50%;">` : ''}
+        <div>
+          <div style="font-size:12px;font-weight:600;">${p.formatted_username || p.service_username}</div>
+          <div style="font-size:11px;color:var(--text-muted);">${p.service} · ${p.counts?.pending || 0} in queue</div>
+        </div>
+      </div>`).join('')}
+    </div>`;
+    // Also load queue
+    loadBufferQueue();
+  } catch (e) {
+    el.innerHTML = `<div style="color:var(--red);font-size:12px;">❌ Connection failed: ${e.message}</div>`;
+  }
+}
+
+async function loadBufferQueue() {
+  const key = getBufferKey();
+  if (!APP.bufferProfiles?.length) return;
+  const queueEl = document.getElementById('buffer-queue');
+  if (!queueEl) return;
+  
+  try {
+    const profile = APP.bufferProfiles[0];
+    const r = await fetch(`${BUFFER_API_BASE}profiles/${profile.id}/updates/pending.json?access_token=${key}`);
+    if (!r.ok) return;
+    const data = await r.json();
+    const updates = data.updates || [];
+    if (updates.length === 0) {
+      queueEl.innerHTML = '<div style="font-size:12px;color:var(--text-muted);">📭 Queue is empty</div>';
+      return;
+    }
+    queueEl.innerHTML = `<div class="card">
+      <div style="font-size:12px;font-weight:600;margin-bottom:8px;">📅 Upcoming Scheduled Posts (${updates.length})</div>
+      ${updates.slice(0, 5).map(u => `<div style="padding:6px 0;border-bottom:1px solid var(--border);font-size:12px;">
+        <div style="color:var(--text-primary);margin-bottom:2px;">${(u.text || '').substring(0, 100)}${u.text?.length > 100 ? '...' : ''}</div>
+        <div style="color:var(--text-muted);font-size:10px;">${u.due_at ? new Date(u.due_at * 1000).toLocaleString() : 'Queued'}</div>
+      </div>`).join('')}
+    </div>`;
+  } catch (e) {
+    console.log('Buffer queue load error:', e);
+  }
+}
+
+async function scheduleViaBuffer(text, profileIdx) {
+  const key = getBufferKey();
+  if (!key) { alert('Configure Buffer API key in Settings'); return; }
+  
+  // Get profiles if not cached
+  if (!APP.bufferProfiles) {
+    try {
+      const r = await fetch(`${BUFFER_API_BASE}profiles.json?access_token=${key}`);
+      APP.bufferProfiles = await r.json();
+    } catch (e) { alert('Failed to connect to Buffer: ' + e.message); return; }
+  }
+  
+  if (!APP.bufferProfiles?.length) { alert('No Buffer profiles found'); return; }
+  
+  const profile = APP.bufferProfiles[profileIdx || 0];
+  
+  try {
+    const body = new URLSearchParams();
+    body.append('access_token', key);
+    body.append('text', text);
+    body.append('profile_ids[]', profile.id);
+    body.append('now', 'false');
+    
+    const r = await fetch(`${BUFFER_API_BASE}updates/create.json`, {
+      method: 'POST',
+      body: body,
+    });
+    
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const result = await r.json();
+    if (result.success) {
+      alert('✅ Added to Buffer queue!');
+    } else {
+      alert('Buffer error: ' + (result.message || JSON.stringify(result)));
+    }
+  } catch (e) {
+    alert('Failed to schedule: ' + e.message);
+  }
+}
+
+function showBufferModal(text) {
+  const profiles = APP.bufferProfiles || [];
+  const modal = document.createElement('div');
+  modal.className = 'modal-overlay open';
+  modal.id = 'buffer-modal';
+  modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+  modal.innerHTML = `<div class="modal">
+    <h3>📤 Schedule via Buffer</h3>
+    <div class="modal-field"><label>Post Text</label>
+      <textarea class="draft-textarea" id="buffer-text" style="min-height:100px;">${escapeHtml(text)}</textarea>
+    </div>
+    <div class="modal-field"><label>Profile</label>
+      <select id="buffer-profile-select" class="setting-input" style="width:100%;appearance:auto;">
+        ${profiles.length ? profiles.map((p, i) => `<option value="${i}">${p.formatted_username || p.service_username} (${p.service})</option>`).join('') : '<option>Loading profiles...</option>'}
+      </select>
+    </div>
+    <div class="modal-field" style="display:flex;gap:8px;">
+      <label style="display:flex;align-items:center;gap:4px;"><input type="radio" name="buffer-timing" value="queue" checked> Add to Queue</label>
+      <label style="display:flex;align-items:center;gap:4px;"><input type="radio" name="buffer-timing" value="now"> Post Now</label>
+      <label style="display:flex;align-items:center;gap:4px;"><input type="radio" name="buffer-timing" value="schedule"> Schedule</label>
+    </div>
+    <div id="buffer-schedule-time" style="display:none;margin-bottom:12px;">
+      <input type="datetime-local" id="buffer-datetime" class="setting-input" style="width:100%;">
+    </div>
+    <div class="modal-actions">
+      <button class="btn btn-ghost btn-sm" onclick="document.getElementById('buffer-modal').remove()">Cancel</button>
+      <button class="btn btn-primary btn-sm" onclick="submitBufferPost()">📤 Schedule</button>
+    </div>
+  </div>`;
+  document.body.appendChild(modal);
+  
+  // Toggle schedule time
+  modal.querySelectorAll('input[name="buffer-timing"]').forEach(r => {
+    r.onchange = () => {
+      document.getElementById('buffer-schedule-time').style.display = r.value === 'schedule' ? 'block' : 'none';
+    };
+  });
+  
+  // Load profiles if needed
+  if (!profiles.length) {
+    (async () => {
+      try {
+        const r = await fetch(`${BUFFER_API_BASE}profiles.json?access_token=${getBufferKey()}`);
+        APP.bufferProfiles = await r.json();
+        const sel = document.getElementById('buffer-profile-select');
+        sel.innerHTML = APP.bufferProfiles.map((p, i) => `<option value="${i}">${p.formatted_username || p.service_username} (${p.service})</option>`).join('');
+      } catch (e) { console.error('Buffer profiles:', e); }
+    })();
+  }
+}
+
+async function submitBufferPost() {
+  const text = document.getElementById('buffer-text')?.value;
+  if (!text?.trim()) return;
+  const profileIdx = parseInt(document.getElementById('buffer-profile-select')?.value || '0');
+  const timing = document.querySelector('input[name="buffer-timing"]:checked')?.value || 'queue';
+  
+  const key = getBufferKey();
+  const profile = APP.bufferProfiles?.[profileIdx];
+  if (!profile) { alert('Select a profile'); return; }
+  
+  const body = new URLSearchParams();
+  body.append('access_token', key);
+  body.append('text', text);
+  body.append('profile_ids[]', profile.id);
+  
+  if (timing === 'now') {
+    body.append('now', 'true');
+  } else if (timing === 'schedule') {
+    const dt = document.getElementById('buffer-datetime')?.value;
+    if (dt) body.append('scheduled_at', new Date(dt).toISOString());
+  }
+  
+  try {
+    const r = await fetch(`${BUFFER_API_BASE}updates/create.json`, { method: 'POST', body });
+    const result = await r.json();
+    if (result.success !== false) {
+      alert('✅ ' + (timing === 'now' ? 'Posted!' : 'Added to Buffer queue!'));
+      document.getElementById('buffer-modal')?.remove();
+    } else {
+      alert('Buffer error: ' + (result.message || 'Unknown error'));
+    }
+  } catch (e) {
+    alert('Failed: ' + e.message);
+  }
 }

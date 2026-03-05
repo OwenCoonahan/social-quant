@@ -1,14 +1,34 @@
 {
-  "fetchedAt": "2026-03-05T16:16:52.836525",
+  "fetchedAt": "2026-03-05T16:29:17.523780",
   "accounts": [
+    {
+      "id": "t1",
+      "handle": "@GridStatusLive",
+      "name": null,
+      "followers": 0,
+      "bio": null,
+      "avatarUrl": "",
+      "verified": false,
+      "platform": "twitter"
+    },
     {
       "id": "t2",
       "handle": "@EIAgov",
       "name": "EIA",
-      "followers": 183559,
+      "followers": 183562,
       "bio": "Independent statistics and analysis from the U.S. Energy Information Administration. Official account. We try to respond to all the questions we receive here.",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1589964881289265155/VQPfi-PS_normal.jpg",
+      "avatarUrl": "",
       "verified": true,
+      "platform": "twitter"
+    },
+    {
+      "id": "t3",
+      "handle": "@SPGlobalPlatts",
+      "name": "SPGlobalPlatts",
+      "followers": 315,
+      "bio": "Follow us on @SPGCI",
+      "avatarUrl": "",
+      "verified": false,
       "platform": "twitter"
     },
     {
@@ -17,411 +37,102 @@
       "name": "Jesse D. Jenkins",
       "followers": 100740,
       "bio": "Macro-energy systems engineering, optimization, and policy. Prof. @EPrinceton (MAE) & @AndlingerCenter. Co-host SHIFT KEY pod. See LinkedIn for more.",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1930264841924612097/og-h3imT_normal.jpg",
+      "avatarUrl": "",
       "verified": true,
       "platform": "twitter"
     },
     {
-      "id": "t6",
-      "handle": "@levelsio",
-      "name": "@levelsio",
-      "followers": 835548,
-      "bio": "\ud83c\uddea\ud83c\uddfahttps://t.co/NdorAWrhrB @euacc \n\ud83d\udcf8https://t.co/lAyoqmT9Hv $106k/m \n\ud83c\udfe1https://t.co/1oqUgfDEsx $42K/m \n\ud83d\udef0https://t.co/ZHSvI2wRou $38K/m \n\ud83c\udf0dhttps://t.co/UXK5AFra0o $21K/m \n\ud83d\udc59https://t.co/RyXpqGvdBB $13K/m \n\ud83d\udcbe@pieter $0K/m",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1996831016720486400/vycHz0uG_normal.jpg",
-      "verified": true,
+      "id": "t5",
+      "handle": "@TimMLatimer",
+      "name": "Tim Latimer",
+      "followers": 27372,
+      "bio": "CEO @fervoenergy, revolutionizing the electric grid with next-gen geothermal \ud83c\udf0b \u26a1\ufe0f Texan.",
+      "avatarUrl": "",
+      "verified": false,
       "platform": "twitter"
     },
     {
-      "id": "t9",
-      "handle": "@GridBrief",
-      "name": "Grid Brief",
-      "followers": 2218,
-      "bio": "Energy. Power. Politics. A newsletter on fossil fuels, renewables, nuclear, and the grid. Read by investors, executives, engineers, policymakers, and more.",
-      "avatarUrl": "https://pbs.twimg.com/profile_images/1488589361063116817/YOiu_xin_normal.png",
-      "verified": true,
-      "platform": "twitter"
+      "id": "t11",
+      "handle": "aphysicist",
+      "platform": "twitter",
+      "name": "Aaron Slodov",
+      "followers": 46368,
+      "avatar": "https://pbs.twimg.com/profile_images/1032339347960291328/bCic-yTu_normal.jpg",
+      "bio": "Building the future of manufacturing: @atomic_inc, @reindsummit, @newindustrials",
+      "category": "builder"
+    },
+    {
+      "id": "t12",
+      "handle": "fabworks_guy",
+      "platform": "twitter",
+      "name": "Jonathan | Fabworks \ud83c\udfed",
+      "followers": 5598,
+      "avatar": "https://pbs.twimg.com/profile_images/1840944784388866051/8q4kXsDr_normal.jpg",
+      "bio": "CEO @fabworkshq. Building a sheet metal instant quoting platform, with lead times measured in days. Proudly a USA based manufacturer \ud83c\uddfa\ud83c\uddf8",
+      "category": "builder"
+    },
+    {
+      "id": "t13",
+      "handle": "emily_yu",
+      "platform": "twitter",
+      "name": "emily yu",
+      "followers": 4618,
+      "avatar": "https://pbs.twimg.com/profile_images/1523809078430113794/gl7LHhAt_normal.jpg",
+      "bio": "hardware, matcha, overthinker | investing @BoostVC | ex- @amazon robotics, @nfx | @mit | \ud83c\uddfa\ud83c\uddf8",
+      "category": "builder"
+    },
+    {
+      "id": "t14",
+      "handle": "ArthurMacwaters",
+      "platform": "twitter",
+      "name": "Arthur MacWaters",
+      "followers": 62761,
+      "avatar": "https://pbs.twimg.com/profile_images/1921033752140279808/TgndOxdb_normal.jpg",
+      "bio": "I'm an unapologetic believer in American exceptionalism \ud83c\uddfa\ud83c\uddf8\n\nPosts on startups & policy | founder @legionhealth (yc s21) | prev @princeton @mckinsey",
+      "category": "builder"
+    },
+    {
+      "id": "t15",
+      "handle": "basti_vkl",
+      "platform": "twitter",
+      "name": "Sebastian V\u00f6lkl",
+      "followers": 9135,
+      "avatar": "https://pbs.twimg.com/profile_images/1832128825465171972/N7qDkTIN_normal.jpg",
+      "bio": "CEO @Dalus_io (YC W25). systems engineering software for industries like aerospace/defense. previously founded @hackerBCI",
+      "category": "builder"
+    },
+    {
+      "id": "t16",
+      "handle": "mehran__jalali",
+      "platform": "twitter",
+      "name": "Mehran Jalali",
+      "followers": 11244,
+      "avatar": "https://pbs.twimg.com/profile_images/1794478239014129664/aNLnzjBf_normal.jpg",
+      "bio": "Doer of things",
+      "category": "builder"
+    },
+    {
+      "id": "t17",
+      "handle": "freemanjiangg",
+      "platform": "twitter",
+      "name": "Freeman Jiang",
+      "followers": 5948,
+      "avatar": "https://pbs.twimg.com/profile_images/1982182412466466816/6xYewym6_normal.jpg",
+      "bio": "\u2042 research engineer @sesame | cs @uwaterloo i make @beatsyncgg @gazooksapp @sevenariesmusic",
+      "category": "builder"
+    },
+    {
+      "id": "t18",
+      "handle": "maxhodak_",
+      "platform": "twitter",
+      "name": "Max Hodak",
+      "followers": 29369,
+      "avatar": "https://pbs.twimg.com/profile_images/1860451628018479104/8Q8IZhok_normal.jpg",
+      "bio": "better living through technology",
+      "category": "builder"
     }
   ],
   "posts": [
-    {
-      "id": "real_2029578210615185526",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "U.S. electricity net generation reached a record high of 4.43 TWh in 2025, up 2.8% from 2024 generation. #TodayInEnergy \n\nhttps://t.co/WsQvJzZkxz https://t.co/tIN0hQYeGv",
-      "type": "image",
-      "likes": 30,
-      "retweets": 11,
-      "replies": 2,
-      "bookmarks": 3,
-      "views": 3558,
-      "timestamp": "Thu Mar 05 15:22:07 +0000 2026",
-      "engagementRate": 1.29,
-      "tweetUrl": "https://x.com/EIAgov/status/2029578210615185526",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCqCnE7XwAA0Jg-.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2028859275288649772",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "U.S. developers signed sale and purchase contracts for a total of 5.2 Bcf/d of LNG in 2025, the highest volume since 7.0 Bcf/d in 2022. #TodayInEnergy #LNG\n\nhttps://t.co/wqPJMqC3wK https://t.co/LoWOAIALy5",
-      "type": "image",
-      "likes": 22,
-      "retweets": 12,
-      "replies": 3,
-      "bookmarks": 5,
-      "views": 3789,
-      "timestamp": "Tue Mar 03 15:45:20 +0000 2026",
-      "engagementRate": 1.11,
-      "tweetUrl": "https://x.com/EIAgov/status/2028859275288649772",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCf0viIWwAA83pj.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2028485717534384369",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "Japan's Kashiwazaki-Kariwa Unit 6 nuclear reactor restart last month will likely displace natural gas electricity generation, which accounted for 33% of Japan's electricity generation in 2024. #TodayInEnergy #nuclear\n\nhttps://t.co/uDoizGzJjU https://t.co/16v64ER0Bj",
-      "type": "image",
-      "likes": 39,
-      "retweets": 17,
-      "replies": 3,
-      "bookmarks": 5,
-      "views": 8669,
-      "timestamp": "Mon Mar 02 15:00:57 +0000 2026",
-      "engagementRate": 0.74,
-      "tweetUrl": "https://x.com/EIAgov/status/2028485717534384369",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCag_mbWQAA74EO.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2026743525614723566",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "New Electric Power Monthly with December 2025 data. Compared with December 2024:\n\n\u26a1 U.S. net generation\u2b06\ufe0f5.8%\n\u26a1 Coal consumption for power\u2b06\ufe0f5.0%\n\u26a1 Avg residential retail price\u2b06\ufe0f6.0%\n\nhttps://t.co/UdG5MSb1va https://t.co/AtVEudpPsC",
-      "type": "image",
-      "likes": 23,
-      "retweets": 8,
-      "replies": 1,
-      "bookmarks": 3,
-      "views": 7512,
-      "timestamp": "Wed Feb 25 19:38:06 +0000 2026",
-      "engagementRate": 0.47,
-      "tweetUrl": "https://x.com/EIAgov/status/2026743525614723566",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCBwetdXgAAzeWC.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2026725163346153550",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "Most natural gas pipelines built in 2025 connect the South Central United States to supply. #TodayInEnergy #naturalgas\n\nhttps://t.co/4MjQ3087vM https://t.co/Vhy7eTBaZw",
-      "type": "image",
-      "likes": 18,
-      "retweets": 10,
-      "replies": 4,
-      "bookmarks": 3,
-      "views": 3461,
-      "timestamp": "Wed Feb 25 18:25:08 +0000 2026",
-      "engagementRate": 1.01,
-      "tweetUrl": "https://x.com/EIAgov/status/2026725163346153550",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCBfx2jXIAAuYdQ.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2026323276494934092",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "The first LNG cargo from Sabine Pass was exported 10 years ago today. The United States is now the world\u2019s largest LNG exporter, with U.S. LNG exports forecast to exceed 18.1 Bcf/d in 2027. #TodayInEnergy\n\nhttps://t.co/a3WcdTWz8N https://t.co/n6p0MudQep",
-      "type": "image",
-      "likes": 191,
-      "retweets": 49,
-      "replies": 8,
-      "bookmarks": 23,
-      "views": 160903,
-      "timestamp": "Tue Feb 24 15:48:11 +0000 2026",
-      "engagementRate": 0.17,
-      "tweetUrl": "https://x.com/EIAgov/status/2026323276494934092",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HB7yQ96WEAAF5Ei.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2025960891607285872",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "U.S. power plant owners and operators plan to retire nearly 11 GW of utility-scale electric generating capacity from the U.S. power grid this year. #TodayInEnergy #electricity\n\nhttps://t.co/mNFJBCGPT7 https://t.co/43G2nmvJew",
-      "type": "image",
-      "likes": 54,
-      "retweets": 22,
-      "replies": 10,
-      "bookmarks": 11,
-      "views": 11575,
-      "timestamp": "Mon Feb 23 15:48:11 +0000 2026",
-      "engagementRate": 0.84,
-      "tweetUrl": "https://x.com/EIAgov/status/2025960891607285872",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HB2orZIWUAAxLyu.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2025652816874717221",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "Sunday hype for upcoming monthly releases this week on: \n\n\ud83c\udd95Densified biomass fuel (Monday)\n\ud83c\udd95Electricity + U.S. energy (Tuesday)\n\ud83c\udd95Petroleum + natural gas (Friday)\n\nhttps://t.co/6Z9prRbLlY",
-      "type": "text",
-      "likes": 22,
-      "retweets": 3,
-      "replies": 1,
-      "bookmarks": 2,
-      "views": 3573,
-      "timestamp": "Sun Feb 22 19:24:01 +0000 2026",
-      "engagementRate": 0.78,
-      "tweetUrl": "https://x.com/EIAgov/status/2025652816874717221",
-      "media": []
-    },
-    {
-      "id": "real_2024958515698122788",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "We've updated our State Energy Portal with new data for:\n\n\ud83d\udd39 Connecticut \n\ud83d\udd39 New Jersey\n\ud83d\udd39 New York\n\ud83d\udd39 Pennsylvania\n\nhttps://t.co/rbYp1VPE8X https://t.co/44eAI3iN8k",
-      "type": "image",
-      "likes": 11,
-      "retweets": 2,
-      "replies": 2,
-      "bookmarks": 3,
-      "views": 3213,
-      "timestamp": "Fri Feb 20 21:25:06 +0000 2026",
-      "engagementRate": 0.56,
-      "tweetUrl": "https://x.com/EIAgov/status/2024958515698122788",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HBoZBctXMAA1qF0.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2024853321542967611",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "U.S. electric generating capacity may reach a record high in 2026, with a total of 86 GW of new utility-scale capacity additions planned. #TodayInEnergy #electricity\n\nhttps://t.co/jpS3sZkzO9 https://t.co/FLQjv7ke7l",
-      "type": "image",
-      "likes": 108,
-      "retweets": 35,
-      "replies": 10,
-      "bookmarks": 25,
-      "views": 16987,
-      "timestamp": "Fri Feb 20 14:27:06 +0000 2026",
-      "engagementRate": 1.05,
-      "tweetUrl": "https://x.com/EIAgov/status/2024853321542967611",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HBm5WUuWoAAXweX.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2024509036205408474",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "Busy day today. \n\n\ud83d\udd35 Weekly Petroleum Status Report \n\ud83d\udd35 Weekly Natural Gas Storage Report\n\ud83d\udd35 Heating Oil and Propane Update\n\ud83d\udd35 Winter Propane Market Update\n\ud83d\udd35 Weekly Coal Production\n\ud83d\udd35 Wholesale Electricity and Natural Gas Market Data",
-      "type": "text",
-      "likes": 8,
-      "retweets": 2,
-      "replies": 0,
-      "bookmarks": 1,
-      "views": 2150,
-      "timestamp": "Thu Feb 19 15:39:02 +0000 2026",
-      "engagementRate": 0.51,
-      "tweetUrl": "https://x.com/EIAgov/status/2024509036205408474",
-      "media": []
-    },
-    {
-      "id": "real_2024489674182443067",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "Enhanced geothermal systems could expand geothermal power generation in the United States. #TodayInEnergy \n\nhttps://t.co/2oLqpDnJtW https://t.co/bZOsIpssPW",
-      "type": "image",
-      "likes": 32,
-      "retweets": 11,
-      "replies": 2,
-      "bookmarks": 10,
-      "views": 7343,
-      "timestamp": "Thu Feb 19 14:22:06 +0000 2026",
-      "engagementRate": 0.75,
-      "tweetUrl": "https://x.com/EIAgov/status/2024489674182443067",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HBhunSAX0AEw01U.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2023778991895630274",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "Maritime exports of petroleum products increased in to near-record highs in January 2026, totaling about 10% more than in January 2025. #TodayInEnergy #petroleum\n\nhttps://t.co/taOqlumvF9 https://t.co/Gde0diusa8",
-      "type": "image",
-      "likes": 20,
-      "retweets": 11,
-      "replies": 1,
-      "bookmarks": 6,
-      "views": 6247,
-      "timestamp": "Tue Feb 17 15:18:06 +0000 2026",
-      "engagementRate": 0.61,
-      "tweetUrl": "https://x.com/EIAgov/status/2023778991895630274",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HBXoQIrXMAIu5JT.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2022371478864384457",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "We forecast U.S. natural gas marketed production will rise to average 120.8 Bcf/d in 2026 and then increase to a record-high 122.3 Bcf/d in 2027. #TodayInEnergy #naturalgas\n\nhttps://t.co/Au2Nbyhhp9 https://t.co/3hNsSKTIG9",
-      "type": "image",
-      "likes": 52,
-      "retweets": 21,
-      "replies": 0,
-      "bookmarks": 11,
-      "views": 12299,
-      "timestamp": "Fri Feb 13 18:05:09 +0000 2026",
-      "engagementRate": 0.68,
-      "tweetUrl": "https://x.com/EIAgov/status/2022371478864384457",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HBDoIEaWEAA9C6b.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2022286383797202946",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "The federal government will be closed on February 16. The holiday release schedule next week will be:\n \n\ud83d\udd35 Weekly Petroleum Status Report, Feb 19 at noon and 2:00 pm \n\ud83d\udd35 Heating Oil and Propane Update, Feb 19 at 2:00 pm\n\ud83d\udd35 Winter Propane Market Update, Feb 19 after 2:00 pm\n \nWe will release all other publications as regularly scheduled.",
-      "type": "text",
-      "likes": 11,
-      "retweets": 4,
-      "replies": 2,
-      "bookmarks": 0,
-      "views": 6586,
-      "timestamp": "Fri Feb 13 12:27:00 +0000 2026",
-      "engagementRate": 0.26,
-      "tweetUrl": "https://x.com/EIAgov/status/2022286383797202946",
-      "media": []
-    },
-    {
-      "id": "real_2022003541032755378",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "State gasoline taxes averaged 33.5 cents per gallon across states, a slight increase from their average last year, as of January 1, 2026. #TodayInEnergy #gasoline\n\nhttps://t.co/AjpracIsyz https://t.co/6bmakndv5u",
-      "type": "image",
-      "likes": 13,
-      "retweets": 7,
-      "replies": 0,
-      "bookmarks": 2,
-      "views": 2474,
-      "timestamp": "Thu Feb 12 17:43:05 +0000 2026",
-      "engagementRate": 0.89,
-      "tweetUrl": "https://x.com/EIAgov/status/2022003541032755378",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HA-ZfRqXcAATkGW.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2021993478578692546",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "We're forecasting lower oil prices in 2026 and 2027 due to persistent stock builds.\n\n#TodayInEnergy\n\nhttps://t.co/tp7yjREAH7 https://t.co/fhjeWPH8S7",
-      "type": "image",
-      "likes": 73,
-      "retweets": 23,
-      "replies": 5,
-      "bookmarks": 24,
-      "views": 9422,
-      "timestamp": "Thu Feb 12 17:03:06 +0000 2026",
-      "engagementRate": 1.33,
-      "tweetUrl": "https://x.com/EIAgov/status/2021993478578692546",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HA-QVjzXQAAKUxU.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2021344702935515182",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "We released our quarterly #coal reports for 3Q25.    \n\n\u25b6\ufe0fhttps://t.co/9hzClc0TiG\n\u25b6\ufe0fhttps://t.co/Fmo2AawcS6 https://t.co/kSEWmSlljM",
-      "type": "image",
-      "likes": 14,
-      "retweets": 8,
-      "replies": 0,
-      "bookmarks": 3,
-      "views": 2979,
-      "timestamp": "Tue Feb 10 22:05:06 +0000 2026",
-      "engagementRate": 0.84,
-      "tweetUrl": "https://x.com/EIAgov/status/2021344702935515182",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HA1CR3YXIAAVafp.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2021288902326124963",
-      "accountId": "t2",
-      "platform": "twitter",
-      "content": "RT @EIA_One: Alongside the February STEO, @EIAgov has released model documentation of the macroeconomics forecasts. Transparency in our met\u2026",
-      "type": "text",
-      "likes": 0,
-      "retweets": 1,
-      "replies": 0,
-      "bookmarks": 0,
-      "views": 0,
-      "timestamp": "Tue Feb 10 18:23:22 +0000 2026",
-      "engagementRate": 0,
-      "tweetUrl": "https://x.com/EIAgov/status/2021288902326124963",
-      "media": []
-    },
     {
       "id": "real_2029663639179833424",
       "accountId": "t4",
@@ -433,7 +144,7 @@
       "replies": 0,
       "bookmarks": 0,
       "views": 0,
-      "timestamp": "Thu Mar 05 21:01:35 +0000 2026",
+      "timestamp": "2026-03-05T21:01:35+00:00",
       "engagementRate": 0,
       "tweetUrl": "https://x.com/JesseJenkins/status/2029663639179833424",
       "media": []
@@ -449,7 +160,7 @@
       "replies": 0,
       "bookmarks": 0,
       "views": 0,
-      "timestamp": "Thu Mar 05 21:01:25 +0000 2026",
+      "timestamp": "2026-03-05T21:01:25+00:00",
       "engagementRate": 0,
       "tweetUrl": "https://x.com/JesseJenkins/status/2029663597580677382",
       "media": []
@@ -465,25 +176,41 @@
       "replies": 0,
       "bookmarks": 0,
       "views": 0,
-      "timestamp": "Thu Mar 05 21:01:19 +0000 2026",
+      "timestamp": "2026-03-05T21:01:19+00:00",
       "engagementRate": 0,
       "tweetUrl": "https://x.com/JesseJenkins/status/2029663569877274904",
       "media": []
     },
     {
-      "id": "real_2028977955611811933",
-      "accountId": "t4",
+      "id": "real_2029607248503169323",
+      "accountId": "t5",
       "platform": "twitter",
-      "content": "\"How U.S. carmakers cope with this pivotal moment will determine whether they survive as global players or slide into irrelevance, becoming niche manufacturers of pickups and sport utility vehicles that only Americans buy.\n\nThe early indications are not promising.\"",
+      "content": "A mission of Fervo from the very beginning has been showing a path where O&amp;G skills can accelerate the transition to sustainable energy.\n\nSo it\u2019s exciting to see that Mission play out as Big Oil starts to follow in Fervo\u2019s geothermal progress foot steps. https://t.co/1AelLqFm5p",
       "type": "text",
-      "likes": 72,
+      "likes": 40,
       "retweets": 7,
-      "replies": 4,
-      "bookmarks": 8,
-      "views": 6752,
-      "timestamp": "Tue Mar 03 23:36:55 +0000 2026",
-      "engagementRate": 1.35,
-      "tweetUrl": "https://x.com/JesseJenkins/status/2028977955611811933",
+      "replies": 2,
+      "bookmarks": 4,
+      "views": 1595,
+      "timestamp": "2026-03-05T17:17:30+00:00",
+      "engagementRate": 3.32,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2029607248503169323",
+      "media": []
+    },
+    {
+      "id": "real_2029578210615185526",
+      "accountId": "t2",
+      "platform": "twitter",
+      "content": "U.S. electricity net generation reached a record high of 4.43 TWh in 2025, up 2.8% from 2024 generation. #TodayInEnergy \n\nhttps://t.co/WsQvJzZkxz https://t.co/tIN0hQYeGv",
+      "type": "text",
+      "likes": 30,
+      "retweets": 12,
+      "replies": 2,
+      "bookmarks": 3,
+      "views": 3621,
+      "timestamp": "2026-03-05T15:22:07+00:00",
+      "engagementRate": 1.3,
+      "tweetUrl": "https://x.com/EIAgov/status/2029578210615185526",
       "media": []
     },
     {
@@ -496,10 +223,26 @@
       "retweets": 1,
       "replies": 0,
       "bookmarks": 4,
-      "views": 1827,
-      "timestamp": "Tue Mar 03 23:36:56 +0000 2026",
+      "views": 1828,
+      "timestamp": "2026-03-03T23:36:56+00:00",
       "engagementRate": 0.88,
       "tweetUrl": "https://x.com/JesseJenkins/status/2028977958082273370",
+      "media": []
+    },
+    {
+      "id": "real_2028977955611811933",
+      "accountId": "t4",
+      "platform": "twitter",
+      "content": "\"How U.S. carmakers cope with this pivotal moment will determine whether they survive as global players or slide into irrelevance, becoming niche manufacturers of pickups and sport utility vehicles that only Americans buy.\n\nThe early indications are not promising.\"",
+      "type": "text",
+      "likes": 72,
+      "retweets": 7,
+      "replies": 4,
+      "bookmarks": 8,
+      "views": 6755,
+      "timestamp": "2026-03-03T23:36:55+00:00",
+      "engagementRate": 1.35,
+      "tweetUrl": "https://x.com/JesseJenkins/status/2028977955611811933",
       "media": []
     },
     {
@@ -513,9 +256,25 @@
       "replies": 0,
       "bookmarks": 0,
       "views": 0,
-      "timestamp": "Tue Mar 03 21:37:07 +0000 2026",
+      "timestamp": "2026-03-03T21:37:07+00:00",
       "engagementRate": 0,
       "tweetUrl": "https://x.com/JesseJenkins/status/2028947807143387452",
+      "media": []
+    },
+    {
+      "id": "real_2028859275288649772",
+      "accountId": "t2",
+      "platform": "twitter",
+      "content": "U.S. developers signed sale and purchase contracts for a total of 5.2 Bcf/d of LNG in 2025, the highest volume since 7.0 Bcf/d in 2022. #TodayInEnergy #LNG\n\nhttps://t.co/wqPJMqC3wK https://t.co/LoWOAIALy5",
+      "type": "text",
+      "likes": 22,
+      "retweets": 12,
+      "replies": 3,
+      "bookmarks": 5,
+      "views": 3791,
+      "timestamp": "2026-03-03T15:45:20+00:00",
+      "engagementRate": 1.11,
+      "tweetUrl": "https://x.com/EIAgov/status/2028859275288649772",
       "media": []
     },
     {
@@ -529,7 +288,7 @@
       "replies": 0,
       "bookmarks": 0,
       "views": 1,
-      "timestamp": "Tue Mar 03 14:23:27 +0000 2026",
+      "timestamp": "2026-03-03T14:23:27+00:00",
       "engagementRate": 25200.0,
       "tweetUrl": "https://x.com/JesseJenkins/status/2028838671256883271",
       "media": []
@@ -545,9 +304,25 @@
       "replies": 0,
       "bookmarks": 0,
       "views": 0,
-      "timestamp": "Mon Mar 02 20:09:08 +0000 2026",
+      "timestamp": "2026-03-02T20:09:08+00:00",
       "engagementRate": 0,
       "tweetUrl": "https://x.com/JesseJenkins/status/2028563274678026386",
+      "media": []
+    },
+    {
+      "id": "real_2028485717534384369",
+      "accountId": "t2",
+      "platform": "twitter",
+      "content": "Japan's Kashiwazaki-Kariwa Unit 6 nuclear reactor restart last month will likely displace natural gas electricity generation, which accounted for 33% of Japan's electricity generation in 2024. #TodayInEnergy #nuclear\n\nhttps://t.co/uDoizGzJjU https://t.co/16v64ER0Bj",
+      "type": "text",
+      "likes": 39,
+      "retweets": 17,
+      "replies": 3,
+      "bookmarks": 5,
+      "views": 8671,
+      "timestamp": "2026-03-02T15:00:57+00:00",
+      "engagementRate": 0.74,
+      "tweetUrl": "https://x.com/EIAgov/status/2028485717534384369",
       "media": []
     },
     {
@@ -561,31 +336,26 @@
       "replies": 0,
       "bookmarks": 0,
       "views": 0,
-      "timestamp": "Sat Feb 28 20:00:38 +0000 2026",
+      "timestamp": "2026-02-28T20:00:38+00:00",
       "engagementRate": 0,
       "tweetUrl": "https://x.com/JesseJenkins/status/2027836360027996175",
       "media": []
     },
     {
-      "id": "real_2027830772770435548",
+      "id": "real_2027832204965953796",
       "accountId": "t4",
       "platform": "twitter",
-      "content": "Absolutely insane for the US govt to be deliberately trying to kill off one of our frontier companies in THE frontier business sector of the day, and virtually the only one driving US economic growth right now. The broader ramifications for business uncertainty in America spelled out well here.",
-      "type": "image",
-      "likes": 275,
-      "retweets": 49,
-      "replies": 12,
-      "bookmarks": 26,
-      "views": 70349,
-      "timestamp": "Sat Feb 28 19:38:26 +0000 2026",
-      "engagementRate": 0.51,
-      "tweetUrl": "https://x.com/JesseJenkins/status/2027830772770435548",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCRNVtaXYAAkbRi.png"
-        }
-      ]
+      "content": "https://t.co/KYCryxPz4e",
+      "type": "text",
+      "likes": 18,
+      "retweets": 3,
+      "replies": 1,
+      "bookmarks": 0,
+      "views": 2433,
+      "timestamp": "2026-02-28T19:44:07+00:00",
+      "engagementRate": 0.9,
+      "tweetUrl": "https://x.com/JesseJenkins/status/2027832204965953796",
+      "media": []
     },
     {
       "id": "real_2027831330814169149",
@@ -598,31 +368,26 @@
       "replies": 2,
       "bookmarks": 3,
       "views": 3118,
-      "timestamp": "Sat Feb 28 19:40:39 +0000 2026",
+      "timestamp": "2026-02-28T19:40:39+00:00",
       "engagementRate": 1.03,
       "tweetUrl": "https://x.com/JesseJenkins/status/2027831330814169149",
       "media": []
     },
     {
-      "id": "real_2027832204965953796",
+      "id": "real_2027830772770435548",
       "accountId": "t4",
       "platform": "twitter",
-      "content": "https://t.co/KYCryxPz4e",
-      "type": "image",
-      "likes": 18,
-      "retweets": 3,
-      "replies": 1,
-      "bookmarks": 0,
-      "views": 2433,
-      "timestamp": "Sat Feb 28 19:44:07 +0000 2026",
-      "engagementRate": 0.9,
-      "tweetUrl": "https://x.com/JesseJenkins/status/2027832204965953796",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCROpNZbEAUmsbg.jpg"
-        }
-      ]
+      "content": "Absolutely insane for the US govt to be deliberately trying to kill off one of our frontier companies in THE frontier business sector of the day, and virtually the only one driving US economic growth right now. The broader ramifications for business uncertainty in America spelled out well here.",
+      "type": "text",
+      "likes": 275,
+      "retweets": 49,
+      "replies": 12,
+      "bookmarks": 26,
+      "views": 70350,
+      "timestamp": "2026-02-28T19:38:26+00:00",
+      "engagementRate": 0.51,
+      "tweetUrl": "https://x.com/JesseJenkins/status/2027830772770435548",
+      "media": []
     },
     {
       "id": "real_2027802947988423137",
@@ -634,8 +399,8 @@
       "retweets": 47,
       "replies": 14,
       "bookmarks": 19,
-      "views": 39363,
-      "timestamp": "Sat Feb 28 17:47:52 +0000 2026",
+      "views": 39365,
+      "timestamp": "2026-02-28T17:47:52+00:00",
       "engagementRate": 1.08,
       "tweetUrl": "https://x.com/JesseJenkins/status/2027802947988423137",
       "media": []
@@ -651,7 +416,7 @@
       "replies": 0,
       "bookmarks": 0,
       "views": 0,
-      "timestamp": "Sat Feb 28 17:34:09 +0000 2026",
+      "timestamp": "2026-02-28T17:34:09+00:00",
       "engagementRate": 0,
       "tweetUrl": "https://x.com/JesseJenkins/status/2027799498869621031",
       "media": []
@@ -667,7 +432,7 @@
       "replies": 0,
       "bookmarks": 0,
       "views": 0,
-      "timestamp": "Sat Feb 28 17:33:18 +0000 2026",
+      "timestamp": "2026-02-28T17:33:18+00:00",
       "engagementRate": 0,
       "tweetUrl": "https://x.com/JesseJenkins/status/2027799282431005100",
       "media": []
@@ -683,9 +448,41 @@
       "replies": 0,
       "bookmarks": 0,
       "views": 0,
-      "timestamp": "Sat Feb 28 17:24:07 +0000 2026",
+      "timestamp": "2026-02-28T17:24:07+00:00",
       "engagementRate": 0,
       "tweetUrl": "https://x.com/JesseJenkins/status/2027796970358640698",
+      "media": []
+    },
+    {
+      "id": "real_2027781151029391813",
+      "accountId": "t5",
+      "platform": "twitter",
+      "content": "It\u2019s amazing how many reply guys there are on this website that just regurgitate some form of:\n\n\u201cInteresting [leading indicator] you\u2019ve shared there, but why isn\u2019t it showing up in this [lagging indicator]??\u201d\n\nThat\u2019s not how understanding the future works yall.",
+      "type": "text",
+      "likes": 32,
+      "retweets": 0,
+      "replies": 4,
+      "bookmarks": 1,
+      "views": 2587,
+      "timestamp": "2026-02-28T16:21:15+00:00",
+      "engagementRate": 1.43,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2027781151029391813",
+      "media": []
+    },
+    {
+      "id": "real_2027750361801298377",
+      "accountId": "t5",
+      "platform": "twitter",
+      "content": "There was record attendance at this years Stanford Geothermal Workshop. Crowds were so large they had to add spillover rooms for the first time.\n\nWe are at the part of the cycle when a huge influx of human capital accelerates things. https://t.co/yr3sUZoZ2P",
+      "type": "text",
+      "likes": 75,
+      "retweets": 5,
+      "replies": 2,
+      "bookmarks": 11,
+      "views": 4660,
+      "timestamp": "2026-02-28T14:18:54+00:00",
+      "engagementRate": 2.0,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2027750361801298377",
       "media": []
     },
     {
@@ -699,7 +496,7 @@
       "replies": 0,
       "bookmarks": 0,
       "views": 0,
-      "timestamp": "Sat Feb 28 01:01:57 +0000 2026",
+      "timestamp": "2026-02-28T01:01:57+00:00",
       "engagementRate": 0,
       "tweetUrl": "https://x.com/JesseJenkins/status/2027549803098374303",
       "media": []
@@ -715,7 +512,7 @@
       "replies": 0,
       "bookmarks": 0,
       "views": 1,
-      "timestamp": "Fri Feb 27 19:34:34 +0000 2026",
+      "timestamp": "2026-02-27T19:34:34+00:00",
       "engagementRate": 800.0,
       "tweetUrl": "https://x.com/JesseJenkins/status/2027467414720430577",
       "media": []
@@ -730,8 +527,8 @@
       "retweets": 7,
       "replies": 10,
       "bookmarks": 10,
-      "views": 11860,
-      "timestamp": "Fri Feb 27 15:03:34 +0000 2026",
+      "views": 11862,
+      "timestamp": "2026-02-27T15:03:34+00:00",
       "engagementRate": 0.95,
       "tweetUrl": "https://x.com/JesseJenkins/status/2027399214125203908",
       "media": []
@@ -746,763 +543,3726 @@
       "retweets": 11,
       "replies": 4,
       "bookmarks": 8,
-      "views": 23446,
-      "timestamp": "Fri Feb 27 14:51:06 +0000 2026",
+      "views": 23448,
+      "timestamp": "2026-02-27T14:51:06+00:00",
       "engagementRate": 0.42,
       "tweetUrl": "https://x.com/JesseJenkins/status/2027396078610317708",
       "media": []
     },
     {
-      "id": "real_2029247496170381418",
-      "accountId": "t6",
+      "id": "real_2027087383267795297",
+      "accountId": "t5",
       "platform": "twitter",
-      "content": "If your gf does this it's a shit test and if you let her do it you failed it",
+      "content": "In case you are wondering, Fervo Energy co-founder and CTO Dr. @JackNorbeck received his PhD in Stanford\u2019s Geothermal Reservoir Engineering group and was already a world recognized expert in geothermal with dozens of publications before he co-founded Fervo.",
       "type": "text",
-      "likes": 1059,
-      "retweets": 12,
-      "replies": 136,
-      "bookmarks": 140,
-      "views": 210061,
-      "timestamp": "Wed Mar 04 17:27:59 +0000 2026",
-      "engagementRate": 0.64,
-      "tweetUrl": "https://x.com/levelsio/status/2029247496170381418",
+      "likes": 20,
+      "retweets": 1,
+      "replies": 2,
+      "bookmarks": 1,
+      "views": 971,
+      "timestamp": "2026-02-26T18:24:28+00:00",
+      "engagementRate": 2.47,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2027087383267795297",
       "media": []
     },
     {
-      "id": "real_2029657281986453777",
-      "accountId": "t6",
+      "id": "real_2027085543394390516",
+      "accountId": "t5",
       "platform": "twitter",
-      "content": "Related",
+      "content": "In any hardtech startup there is a singular discipline that ties the tech to the economics and it\u2019s vital a founding team has that as a core competency.\n\nIn geothermal, it\u2019s Reservoir Engineering, and there are countless startups working on bad ideas because they lack that skill.",
+      "type": "text",
+      "likes": 59,
+      "retweets": 3,
+      "replies": 7,
+      "bookmarks": 17,
+      "views": 5155,
+      "timestamp": "2026-02-26T18:17:09+00:00",
+      "engagementRate": 1.67,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2027085543394390516",
+      "media": []
+    },
+    {
+      "id": "real_2026743525614723566",
+      "accountId": "t2",
+      "platform": "twitter",
+      "content": "New Electric Power Monthly with December 2025 data. Compared with December 2024:\n\n\u26a1 U.S. net generation\u2b06\ufe0f5.8%\n\u26a1 Coal consumption for power\u2b06\ufe0f5.0%\n\u26a1 Avg residential retail price\u2b06\ufe0f6.0%\n\nhttps://t.co/UdG5MSb1va https://t.co/AtVEudpPsC",
+      "type": "text",
+      "likes": 23,
+      "retweets": 8,
+      "replies": 1,
+      "bookmarks": 3,
+      "views": 7512,
+      "timestamp": "2026-02-25T19:38:06+00:00",
+      "engagementRate": 0.47,
+      "tweetUrl": "https://x.com/EIAgov/status/2026743525614723566",
+      "media": []
+    },
+    {
+      "id": "real_2026725163346153550",
+      "accountId": "t2",
+      "platform": "twitter",
+      "content": "Most natural gas pipelines built in 2025 connect the South Central United States to supply. #TodayInEnergy #naturalgas\n\nhttps://t.co/4MjQ3087vM https://t.co/Vhy7eTBaZw",
+      "type": "text",
+      "likes": 18,
+      "retweets": 10,
+      "replies": 4,
+      "bookmarks": 3,
+      "views": 3461,
+      "timestamp": "2026-02-25T18:25:08+00:00",
+      "engagementRate": 1.01,
+      "tweetUrl": "https://x.com/EIAgov/status/2026725163346153550",
+      "media": []
+    },
+    {
+      "id": "real_2026665897683751136",
+      "accountId": "t5",
+      "platform": "twitter",
+      "content": "RT @JesseJenkins: Great energy job opportunity here https://t.co/FwsOsh45bg",
+      "type": "text",
+      "likes": 0,
+      "retweets": 1,
+      "replies": 0,
+      "bookmarks": 0,
+      "views": 0,
+      "timestamp": "2026-02-25T14:29:38+00:00",
+      "engagementRate": 0,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2026665897683751136",
+      "media": []
+    },
+    {
+      "id": "real_2026323276494934092",
+      "accountId": "t2",
+      "platform": "twitter",
+      "content": "The first LNG cargo from Sabine Pass was exported 10 years ago today. The United States is now the world\u2019s largest LNG exporter, with U.S. LNG exports forecast to exceed 18.1 Bcf/d in 2027. #TodayInEnergy\n\nhttps://t.co/a3WcdTWz8N https://t.co/n6p0MudQep",
+      "type": "text",
+      "likes": 191,
+      "retweets": 49,
+      "replies": 8,
+      "bookmarks": 23,
+      "views": 160903,
+      "timestamp": "2026-02-24T15:48:11+00:00",
+      "engagementRate": 0.17,
+      "tweetUrl": "https://x.com/EIAgov/status/2026323276494934092",
+      "media": []
+    },
+    {
+      "id": "real_2026298959208305064",
+      "accountId": "t5",
+      "platform": "twitter",
+      "content": "This is one of the highest impact jobs we have posted in a while. If you are an experienced electrical engineer and what to lead a team at the forefront of energy innovation, check out this role. https://t.co/mLsj5w00Fy",
+      "type": "text",
+      "likes": 29,
+      "retweets": 3,
+      "replies": 1,
+      "bookmarks": 8,
+      "views": 6041,
+      "timestamp": "2026-02-24T14:11:33+00:00",
+      "engagementRate": 0.68,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2026298959208305064",
+      "media": []
+    },
+    {
+      "id": "real_2025960891607285872",
+      "accountId": "t2",
+      "platform": "twitter",
+      "content": "U.S. power plant owners and operators plan to retire nearly 11 GW of utility-scale electric generating capacity from the U.S. power grid this year. #TodayInEnergy #electricity\n\nhttps://t.co/mNFJBCGPT7 https://t.co/43G2nmvJew",
+      "type": "text",
+      "likes": 54,
+      "retweets": 22,
+      "replies": 10,
+      "bookmarks": 11,
+      "views": 11575,
+      "timestamp": "2026-02-23T15:48:11+00:00",
+      "engagementRate": 0.84,
+      "tweetUrl": "https://x.com/EIAgov/status/2025960891607285872",
+      "media": []
+    },
+    {
+      "id": "real_2025707131136082073",
+      "accountId": "t5",
+      "platform": "twitter",
+      "content": "Also people don\u2019t realize how extraordinarily time consuming it is. At a certain point exec teams spend much of their time fundraising. \n\nAn under appreciated success factor of the Musk companies is exec teams get to be way more focused since capital is easier to come by.",
       "type": "text",
       "likes": 29,
       "retweets": 0,
+      "replies": 2,
+      "bookmarks": 1,
+      "views": 1434,
+      "timestamp": "2026-02-22T22:59:50+00:00",
+      "engagementRate": 2.23,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2025707131136082073",
+      "media": []
+    },
+    {
+      "id": "real_2025705783082570069",
+      "accountId": "t5",
+      "platform": "twitter",
+      "content": "And the numbers of rejections just go up the more success people find! Because more funding rounds always mean way more rejections than people who haven\u2019t been in the Founder seat realize.",
+      "type": "text",
+      "likes": 21,
+      "retweets": 1,
+      "replies": 2,
+      "bookmarks": 0,
+      "views": 1656,
+      "timestamp": "2026-02-22T22:54:29+00:00",
+      "engagementRate": 1.45,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2025705783082570069",
+      "media": []
+    },
+    {
+      "id": "real_2025704926584635879",
+      "accountId": "t5",
+      "platform": "twitter",
+      "content": "It takes a pretty unique personality to make it as a hardtech founder. Most everyone I know who has found success has been rejected by many hundreds of VCs while fundraising over the years and still finds grit to move forward.",
+      "type": "text",
+      "likes": 81,
+      "retweets": 2,
+      "replies": 8,
+      "bookmarks": 5,
+      "views": 6752,
+      "timestamp": "2026-02-22T22:51:04+00:00",
+      "engagementRate": 1.42,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2025704926584635879",
+      "media": []
+    },
+    {
+      "id": "real_2025677151282901044",
+      "accountId": "t5",
+      "platform": "twitter",
+      "content": "I think it\u2019s practically self evident that this is the value maximizing outcome for society and we should really be thinking about grid planning through a totally different lens.",
+      "type": "text",
+      "likes": 103,
+      "retweets": 11,
+      "replies": 8,
+      "bookmarks": 15,
+      "views": 12211,
+      "timestamp": "2026-02-22T21:00:42+00:00",
+      "engagementRate": 1.12,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2025677151282901044",
+      "media": []
+    },
+    {
+      "id": "real_2025652816874717221",
+      "accountId": "t2",
+      "platform": "twitter",
+      "content": "Sunday hype for upcoming monthly releases this week on: \n\n\ud83c\udd95Densified biomass fuel (Monday)\n\ud83c\udd95Electricity + U.S. energy (Tuesday)\n\ud83c\udd95Petroleum + natural gas (Friday)\n\nhttps://t.co/6Z9prRbLlY",
+      "type": "text",
+      "likes": 22,
+      "retweets": 3,
+      "replies": 1,
+      "bookmarks": 2,
+      "views": 3573,
+      "timestamp": "2026-02-22T19:24:01+00:00",
+      "engagementRate": 0.78,
+      "tweetUrl": "https://x.com/EIAgov/status/2025652816874717221",
+      "media": []
+    },
+    {
+      "id": "real_2024983551846875469",
+      "accountId": "t5",
+      "platform": "twitter",
+      "content": "I can\u2019t believe, even today, how under the radar geothermal is. The amount of disruption coming to the energy sector is going to catch a lot of people by surprise.",
+      "type": "text",
+      "likes": 426,
+      "retweets": 30,
+      "replies": 51,
+      "bookmarks": 57,
+      "views": 46863,
+      "timestamp": "2026-02-20T23:04:35+00:00",
+      "engagementRate": 1.2,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2024983551846875469",
+      "media": []
+    },
+    {
+      "id": "real_2024958515698122788",
+      "accountId": "t2",
+      "platform": "twitter",
+      "content": "We've updated our State Energy Portal with new data for:\n\n\ud83d\udd39 Connecticut \n\ud83d\udd39 New Jersey\n\ud83d\udd39 New York\n\ud83d\udd39 Pennsylvania\n\nhttps://t.co/rbYp1VPE8X https://t.co/44eAI3iN8k",
+      "type": "text",
+      "likes": 11,
+      "retweets": 2,
+      "replies": 2,
+      "bookmarks": 3,
+      "views": 3213,
+      "timestamp": "2026-02-20T21:25:06+00:00",
+      "engagementRate": 0.56,
+      "tweetUrl": "https://x.com/EIAgov/status/2024958515698122788",
+      "media": []
+    },
+    {
+      "id": "real_2024853321542967611",
+      "accountId": "t2",
+      "platform": "twitter",
+      "content": "U.S. electric generating capacity may reach a record high in 2026, with a total of 86 GW of new utility-scale capacity additions planned. #TodayInEnergy #electricity\n\nhttps://t.co/jpS3sZkzO9 https://t.co/FLQjv7ke7l",
+      "type": "text",
+      "likes": 108,
+      "retweets": 35,
+      "replies": 10,
+      "bookmarks": 25,
+      "views": 16987,
+      "timestamp": "2026-02-20T14:27:06+00:00",
+      "engagementRate": 1.05,
+      "tweetUrl": "https://x.com/EIAgov/status/2024853321542967611",
+      "media": []
+    },
+    {
+      "id": "real_2024683339202822214",
+      "accountId": "t5",
+      "platform": "twitter",
+      "content": "It\u2019s been a bit since I\u2019ve posted about our open positions, so your regular reminder: @fervoenergy is hiring. \n\n21 (!!) open positions currently. Please spread the word. https://t.co/DJHKTW1wrT",
+      "type": "text",
+      "likes": 63,
+      "retweets": 6,
+      "replies": 1,
+      "bookmarks": 5,
+      "views": 9811,
+      "timestamp": "2026-02-20T03:11:39+00:00",
+      "engagementRate": 0.76,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2024683339202822214",
+      "media": []
+    },
+    {
+      "id": "real_2024559372253176063",
+      "accountId": "t5",
+      "platform": "twitter",
+      "content": "Very cool write up on the future of technology from Collin today, and he hits on one of Fervo\u2019s core premises.\n\nOil and gas has incredible aptitude for technology development and that translates seamlessly into geothermal and other areas. https://t.co/mmWYXCwo6Y",
+      "type": "text",
+      "likes": 52,
+      "retweets": 4,
       "replies": 4,
       "bookmarks": 12,
-      "views": 6014,
-      "timestamp": "Thu Mar 05 20:36:19 +0000 2026",
+      "views": 7881,
+      "timestamp": "2026-02-19T18:59:03+00:00",
+      "engagementRate": 0.91,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2024559372253176063",
+      "media": []
+    },
+    {
+      "id": "real_2024509036205408474",
+      "accountId": "t2",
+      "platform": "twitter",
+      "content": "Busy day today. \n\n\ud83d\udd35 Weekly Petroleum Status Report \n\ud83d\udd35 Weekly Natural Gas Storage Report\n\ud83d\udd35 Heating Oil and Propane Update\n\ud83d\udd35 Winter Propane Market Update\n\ud83d\udd35 Weekly Coal Production\n\ud83d\udd35 Wholesale Electricity and Natural Gas Market Data",
+      "type": "text",
+      "likes": 8,
+      "retweets": 2,
+      "replies": 0,
+      "bookmarks": 1,
+      "views": 2150,
+      "timestamp": "2026-02-19T15:39:02+00:00",
+      "engagementRate": 0.51,
+      "tweetUrl": "https://x.com/EIAgov/status/2024509036205408474",
+      "media": []
+    },
+    {
+      "id": "real_2024489674182443067",
+      "accountId": "t2",
+      "platform": "twitter",
+      "content": "Enhanced geothermal systems could expand geothermal power generation in the United States. #TodayInEnergy \n\nhttps://t.co/2oLqpDnJtW https://t.co/bZOsIpssPW",
+      "type": "text",
+      "likes": 32,
+      "retweets": 11,
+      "replies": 2,
+      "bookmarks": 10,
+      "views": 7343,
+      "timestamp": "2026-02-19T14:22:06+00:00",
       "engagementRate": 0.75,
-      "tweetUrl": "https://x.com/levelsio/status/2029657281986453777",
+      "tweetUrl": "https://x.com/EIAgov/status/2024489674182443067",
       "media": []
     },
     {
-      "id": "real_2029249973649363021",
-      "accountId": "t6",
+      "id": "real_2024329766455627924",
+      "accountId": "t5",
       "platform": "twitter",
-      "content": "This is so common! It's 100% a biological shit test and you should ignore it. Dress how you wanna dress, don't let your gf change how you dress. It's a form of power tripping in most cases. You can get directions/pointers sure but own how you look!\n\nI remember my friend went shopping with his gf, she completely changed his style:\n\nHe arrived fully dressed in brown, brown shirt, brown corduroy rib pants, brown shoes, he looked like a \ud83d\udca9 turd\n\nA week later she dumped him!",
+      "content": "Oh and implied in this: despite being great for raising early capital, for many businesses, SF is not the right place for long term growth.\n\nIf you are building an energy company, for example, you need to be in Houston.",
       "type": "text",
-      "likes": 632,
-      "retweets": 7,
-      "replies": 61,
-      "bookmarks": 171,
-      "views": 471775,
-      "timestamp": "Wed Mar 04 17:37:50 +0000 2026",
-      "engagementRate": 0.18,
-      "tweetUrl": "https://x.com/levelsio/status/2029249973649363021",
+      "likes": 5,
+      "retweets": 1,
+      "replies": 4,
+      "bookmarks": 1,
+      "views": 1223,
+      "timestamp": "2026-02-19T03:46:41+00:00",
+      "engagementRate": 0.9,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2024329766455627924",
       "media": []
     },
     {
-      "id": "real_2029657248721457534",
-      "accountId": "t6",
+      "id": "real_2024311479546110300",
+      "accountId": "t5",
       "platform": "twitter",
-      "content": "Related",
+      "content": "There is really only one player when it comes to early stage startup funding. \n\nMy advice for most entrepreneurs is to either locate in SF in the early days or figure out how to spend significant time there.\n\nOnce you have established VC ties, then you can do the right geography. https://t.co/pysLiAi2ox",
       "type": "text",
-      "likes": 10,
+      "likes": 12,
+      "retweets": 0,
+      "replies": 3,
+      "bookmarks": 4,
+      "views": 1904,
+      "timestamp": "2026-02-19T02:34:01+00:00",
+      "engagementRate": 1.0,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2024311479546110300",
+      "media": []
+    },
+    {
+      "id": "real_2024161506267426908",
+      "accountId": "t5",
+      "platform": "twitter",
+      "content": "RT @JaneAFlegal: We should treat electricity as a growth platform (like highways, broadband) rather than a commodity to be tightly balanced\u2026",
+      "type": "text",
+      "likes": 0,
+      "retweets": 45,
+      "replies": 0,
+      "bookmarks": 0,
+      "views": 2,
+      "timestamp": "2026-02-18T16:38:04+00:00",
+      "engagementRate": 2250.0,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2024161506267426908",
+      "media": []
+    },
+    {
+      "id": "real_2023778991895630274",
+      "accountId": "t2",
+      "platform": "twitter",
+      "content": "Maritime exports of petroleum products increased in to near-record highs in January 2026, totaling about 10% more than in January 2025. #TodayInEnergy #petroleum\n\nhttps://t.co/taOqlumvF9 https://t.co/Gde0diusa8",
+      "type": "text",
+      "likes": 20,
+      "retweets": 11,
+      "replies": 1,
+      "bookmarks": 6,
+      "views": 6247,
+      "timestamp": "2026-02-17T15:18:06+00:00",
+      "engagementRate": 0.61,
+      "tweetUrl": "https://x.com/EIAgov/status/2023778991895630274",
+      "media": []
+    },
+    {
+      "id": "real_2023103954767458776",
+      "accountId": "t5",
+      "platform": "twitter",
+      "content": "In case anyone wants to debate me on this topic I present my opening argument below.",
+      "type": "text",
+      "likes": 18,
       "retweets": 0,
       "replies": 2,
       "bookmarks": 1,
-      "views": 4460,
-      "timestamp": "Thu Mar 05 20:36:11 +0000 2026",
-      "engagementRate": 0.29,
-      "tweetUrl": "https://x.com/levelsio/status/2029657248721457534",
+      "views": 1509,
+      "timestamp": "2026-02-15T18:35:44+00:00",
+      "engagementRate": 1.39,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2023103954767458776",
       "media": []
     },
     {
-      "id": "real_2029637672029888658",
-      "accountId": "t6",
+      "id": "real_2023103132805587005",
+      "accountId": "t5",
       "platform": "twitter",
-      "content": "Clearly what Europe needs is more incubators, not less regulation /s",
+      "content": "The private sector is remarkable at efficiently allocating capital for near term, relatively low risk investments, but has proven ill equipped at making transformative multi-decade bets on its own.\n\nBehind every major breakthrough is gov funding and often huge customer orders.",
       "type": "text",
-      "likes": 351,
-      "retweets": 10,
-      "replies": 51,
-      "bookmarks": 36,
-      "views": 29226,
-      "timestamp": "Thu Mar 05 19:18:24 +0000 2026",
-      "engagementRate": 1.53,
-      "tweetUrl": "https://x.com/levelsio/status/2029637672029888658",
-      "media": []
-    },
-    {
-      "id": "real_2029653568882368541",
-      "accountId": "t6",
-      "platform": "twitter",
-      "content": "https://t.co/J6kH9FK8JZ https://t.co/r2aZMiQF3H",
-      "type": "image",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 3,
-      "bookmarks": 0,
-      "views": 3480,
-      "timestamp": "Thu Mar 05 20:21:34 +0000 2026",
-      "engagementRate": 0.14,
-      "tweetUrl": "https://x.com/levelsio/status/2029653568882368541",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCrHKNNWsAEMvs4.jpg"
-        },
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCrHKNMXoAIxZy2.jpg"
-        },
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCrHKNraUAIoHVr.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2029575116187730300",
-      "accountId": "t6",
-      "platform": "twitter",
-      "content": "Icon, the AI Admaker, just went bankrupt\n\nThey paid $12M for the domain https://t.co/MokmFd4GxD and now it's dead https://t.co/llpw7s1lgW",
-      "type": "image",
-      "likes": 2302,
-      "retweets": 70,
-      "replies": 425,
-      "bookmarks": 694,
-      "views": 466335,
-      "timestamp": "Thu Mar 05 15:09:50 +0000 2026",
-      "engagementRate": 0.75,
-      "tweetUrl": "https://x.com/levelsio/status/2029575116187730300",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCp_zQuW4AAOyCl.jpg"
-        },
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCp_zQuWgAANFqG.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2029634760864321796",
-      "accountId": "t6",
-      "platform": "twitter",
-      "content": "Dodgy stuff surrounding this\n\nNo social media posts, no press releases and no communication\n\nYet they keep rebilling customers just days ago!",
-      "type": "text",
-      "likes": 35,
+      "likes": 27,
       "retweets": 1,
-      "replies": 6,
-      "bookmarks": 9,
-      "views": 19162,
-      "timestamp": "Thu Mar 05 19:06:50 +0000 2026",
-      "engagementRate": 0.27,
-      "tweetUrl": "https://x.com/levelsio/status/2029634760864321796",
+      "replies": 3,
+      "bookmarks": 3,
+      "views": 1206,
+      "timestamp": "2026-02-15T18:32:28+00:00",
+      "engagementRate": 2.82,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2023103132805587005",
       "media": []
     },
     {
-      "id": "real_2029628407974097109",
-      "accountId": "t6",
+      "id": "real_2023101151948730616",
+      "accountId": "t5",
       "platform": "twitter",
-      "content": "Clothing stores are so useless these days\n\nYou visit the brand store to get a specific thing you saw and you wanna buy it\n\nYou arrive, and it's either out of stock, or it's not in your size\n\nLike they're not even trying to compete with online stores that have every single thing in every single size in stock forever\n\nWhy???",
+      "content": "Arguing whether the private or public sector is more efficient at using capital is a false dichotomy.\n\nThe correct answer is that breakthroughs come from blending the best of private market efficiency with public sector support and the debate should be about the right blend.",
       "type": "text",
-      "likes": 301,
+      "likes": 61,
       "retweets": 6,
-      "replies": 79,
-      "bookmarks": 24,
-      "views": 26692,
-      "timestamp": "Thu Mar 05 18:41:35 +0000 2026",
-      "engagementRate": 1.54,
-      "tweetUrl": "https://x.com/levelsio/status/2029628407974097109",
+      "replies": 2,
+      "bookmarks": 6,
+      "views": 6485,
+      "timestamp": "2026-02-15T18:24:36+00:00",
+      "engagementRate": 1.16,
+      "tweetUrl": "https://x.com/TimMLatimer/status/2023101151948730616",
       "media": []
     },
     {
-      "id": "real_2029612700167282974",
-      "accountId": "t6",
+      "id": "real_2022371478864384457",
+      "accountId": "t2",
       "platform": "twitter",
-      "content": "I KNEW IT",
+      "content": "We forecast U.S. natural gas marketed production will rise to average 120.8 Bcf/d in 2026 and then increase to a record-high 122.3 Bcf/d in 2027. #TodayInEnergy #naturalgas\n\nhttps://t.co/Au2Nbyhhp9 https://t.co/3hNsSKTIG9",
       "type": "text",
-      "likes": 1220,
-      "retweets": 16,
-      "replies": 105,
-      "bookmarks": 119,
-      "views": 126992,
-      "timestamp": "Thu Mar 05 17:39:10 +0000 2026",
-      "engagementRate": 1.15,
-      "tweetUrl": "https://x.com/levelsio/status/2029612700167282974",
+      "likes": 52,
+      "retweets": 21,
+      "replies": 0,
+      "bookmarks": 11,
+      "views": 12299,
+      "timestamp": "2026-02-13T18:05:09+00:00",
+      "engagementRate": 0.68,
+      "tweetUrl": "https://x.com/EIAgov/status/2022371478864384457",
       "media": []
     },
     {
-      "id": "real_2029608576151400911",
-      "accountId": "t6",
+      "id": "real_2022286383797202946",
+      "accountId": "t2",
       "platform": "twitter",
-      "content": "3 fake abuse reports in 24 hours on my Hetzner server\n\nAll SYN IP spoofed packages port scanning on port 22, which isn't me because it's just spoofing my IP\n\nEvery day I have to reply to @Hetzner_Online now that it's not me, I can't port scan 22 outbound, because I have 22 outbound blocked on their firewall, if I don't reply within 24h my IP gets blocked!\n\nI guess I need to speak to someone at Hetzner internally to fix this because the internet has lots of ppl that get this issue\n\nIf Hetzner can fix this, they'll be a great host for the future I think",
-      "type": "image",
-      "likes": 373,
-      "retweets": 8,
-      "replies": 67,
-      "bookmarks": 107,
-      "views": 62087,
-      "timestamp": "Thu Mar 05 17:22:47 +0000 2026",
-      "engagementRate": 0.89,
-      "tweetUrl": "https://x.com/levelsio/status/2029608576151400911",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCqdnhZXEAACN0O.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2029598121433649395",
-      "accountId": "t6",
-      "platform": "twitter",
-      "content": "Yubikeys and Trezors spotted",
+      "content": "The federal government will be closed on February 16. The holiday release schedule next week will be:\n \n\ud83d\udd35 Weekly Petroleum Status Report, Feb 19 at noon and 2:00 pm \n\ud83d\udd35 Heating Oil and Propane Update, Feb 19 at 2:00 pm\n\ud83d\udd35 Winter Propane Market Update, Feb 19 after 2:00 pm\n \nWe will release all other publications as regularly scheduled.",
       "type": "text",
-      "likes": 161,
+      "likes": 11,
       "retweets": 4,
-      "replies": 19,
-      "bookmarks": 35,
-      "views": 47723,
-      "timestamp": "Thu Mar 05 16:41:14 +0000 2026",
-      "engagementRate": 0.46,
-      "tweetUrl": "https://x.com/levelsio/status/2029598121433649395",
+      "replies": 2,
+      "bookmarks": 0,
+      "views": 6586,
+      "timestamp": "2026-02-13T12:27:00+00:00",
+      "engagementRate": 0.26,
+      "tweetUrl": "https://x.com/EIAgov/status/2022286383797202946",
       "media": []
     },
     {
-      "id": "real_2029572994213773428",
-      "accountId": "t6",
+      "id": "real_2022003541032755378",
+      "accountId": "t2",
       "platform": "twitter",
-      "content": "\ud83d\udcb8 @X paid me a reasonable $12,000 to tweet this month\n\n$10,511 ad rev share\n$1,247 subs revenue\n(= $11,758 per 28 days)\n\n= $12,807/month\n\nMedian X revenue now since X started paying me is @ $9,000/mo\n\nIf my X account was a business and valued at just these payouts, it would be worth at 10x @ $1,080,000, or at 20x @ $2,160,000\n\nAlthough I think a bit more if you value the reach",
-      "type": "image",
-      "likes": 949,
-      "retweets": 17,
-      "replies": 185,
-      "bookmarks": 222,
-      "views": 220720,
-      "timestamp": "Thu Mar 05 15:01:24 +0000 2026",
-      "engagementRate": 0.62,
-      "tweetUrl": "https://x.com/levelsio/status/2029572994213773428",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCp8lgoaUAAYfDS.jpg"
-        },
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCp9GIqWkAAcnNn.jpg"
-        },
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCp9GKBaEAA5SgZ.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2029551458023051324",
-      "accountId": "t6",
-      "platform": "twitter",
-      "content": "Any way I can avoid my IP getting spoofed?\n\nCan hosting providers check if abuse reports are based on real or spoofed packages?",
+      "content": "State gasoline taxes averaged 33.5 cents per gallon across states, a slight increase from their average last year, as of January 1, 2026. #TodayInEnergy #gasoline\n\nhttps://t.co/AjpracIsyz https://t.co/6bmakndv5u",
       "type": "text",
-      "likes": 238,
-      "retweets": 3,
-      "replies": 61,
-      "bookmarks": 94,
-      "views": 124782,
-      "timestamp": "Thu Mar 05 13:35:49 +0000 2026",
-      "engagementRate": 0.32,
-      "tweetUrl": "https://x.com/levelsio/status/2029551458023051324",
+      "likes": 13,
+      "retweets": 7,
+      "replies": 0,
+      "bookmarks": 2,
+      "views": 2474,
+      "timestamp": "2026-02-12T17:43:05+00:00",
+      "engagementRate": 0.89,
+      "tweetUrl": "https://x.com/EIAgov/status/2022003541032755378",
       "media": []
     },
     {
-      "id": "real_2029560394562351152",
-      "accountId": "t6",
+      "id": "real_2021993478578692546",
+      "accountId": "t2",
       "platform": "twitter",
-      "content": "Great post on what happened to me https://t.co/wGV68ZfAQL",
+      "content": "We're forecasting lower oil prices in 2026 and 2027 due to persistent stock builds.\n\n#TodayInEnergy\n\nhttps://t.co/tp7yjREAH7 https://t.co/fhjeWPH8S7",
       "type": "text",
-      "likes": 62,
-      "retweets": 2,
-      "replies": 3,
-      "bookmarks": 75,
-      "views": 10535,
-      "timestamp": "Thu Mar 05 14:11:20 +0000 2026",
-      "engagementRate": 1.35,
-      "tweetUrl": "https://x.com/levelsio/status/2029560394562351152",
+      "likes": 73,
+      "retweets": 23,
+      "replies": 5,
+      "bookmarks": 24,
+      "views": 9422,
+      "timestamp": "2026-02-12T17:03:06+00:00",
+      "engagementRate": 1.33,
+      "tweetUrl": "https://x.com/EIAgov/status/2021993478578692546",
       "media": []
     },
     {
-      "id": "real_2029399495679631794",
-      "accountId": "t6",
+      "id": "real_2021344702935515182",
+      "accountId": "t2",
       "platform": "twitter",
-      "content": "RT @addyosmani: Introducing the Google Workspace CLI: https://t.co/8yWtbxiVPp - built for humans and agents.\n\nGoogle Drive, Gmail, Calendar\u2026",
+      "content": "We released our quarterly #coal reports for 3Q25.    \n\n\u25b6\ufe0fhttps://t.co/9hzClc0TiG\n\u25b6\ufe0fhttps://t.co/Fmo2AawcS6 https://t.co/kSEWmSlljM",
+      "type": "text",
+      "likes": 14,
+      "retweets": 8,
+      "replies": 0,
+      "bookmarks": 3,
+      "views": 2979,
+      "timestamp": "2026-02-10T22:05:06+00:00",
+      "engagementRate": 0.84,
+      "tweetUrl": "https://x.com/EIAgov/status/2021344702935515182",
+      "media": []
+    },
+    {
+      "id": "real_2021288902326124963",
+      "accountId": "t2",
+      "platform": "twitter",
+      "content": "RT @EIA_One: Alongside the February STEO, @EIAgov has released model documentation of the macroeconomics forecasts. Transparency in our met\u2026",
       "type": "text",
       "likes": 0,
-      "retweets": 1242,
-      "replies": 0,
-      "bookmarks": 0,
-      "views": 11,
-      "timestamp": "Thu Mar 05 03:31:58 +0000 2026",
-      "engagementRate": 11290.91,
-      "tweetUrl": "https://x.com/levelsio/status/2029399495679631794",
-      "media": []
-    },
-    {
-      "id": "real_2029396168459874760",
-      "accountId": "t6",
-      "platform": "twitter",
-      "content": "Great idea\n\nPrague or Warsaw deserve to be the new center of Europe",
-      "type": "text",
-      "likes": 1285,
-      "retweets": 31,
-      "replies": 112,
-      "bookmarks": 64,
-      "views": 80195,
-      "timestamp": "Thu Mar 05 03:18:45 +0000 2026",
-      "engagementRate": 1.86,
-      "tweetUrl": "https://x.com/levelsio/status/2029396168459874760",
-      "media": []
-    },
-    {
-      "id": "real_2029391228710613174",
-      "accountId": "t6",
-      "platform": "twitter",
-      "content": "Save us @nikitabier https://t.co/aROG26iAay",
-      "type": "image",
-      "likes": 224,
-      "retweets": 0,
-      "replies": 47,
-      "bookmarks": 16,
-      "views": 41314,
-      "timestamp": "Thu Mar 05 02:59:07 +0000 2026",
-      "engagementRate": 0.69,
-      "tweetUrl": "https://x.com/levelsio/status/2029391228710613174",
-      "media": [
-        {
-          "type": "video",
-          "thumbnail": "https://pbs.twimg.com/amplify_video_thumb/2029391034460061697/img/RcVlBOYJoOKMVCIb.jpg",
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2029391034460061697/img/RcVlBOYJoOKMVCIb.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2029380348165923037",
-      "accountId": "t6",
-      "platform": "twitter",
-      "content": "RT @dieworkwear: interesting how many men take offense at the idea of their gf dressing them but will ask AI what they should have for lunch",
-      "type": "text",
-      "likes": 0,
-      "retweets": 209,
-      "replies": 0,
-      "bookmarks": 0,
-      "views": 14,
-      "timestamp": "Thu Mar 05 02:15:53 +0000 2026",
-      "engagementRate": 1492.86,
-      "tweetUrl": "https://x.com/levelsio/status/2029380348165923037",
-      "media": []
-    },
-    {
-      "id": "real_2029377585830896032",
-      "accountId": "t6",
-      "platform": "twitter",
-      "content": "Ok ok \ud83d\udc4c https://t.co/YebKudtFW3",
-      "type": "image",
-      "likes": 295,
-      "retweets": 3,
-      "replies": 32,
-      "bookmarks": 20,
-      "views": 68293,
-      "timestamp": "Thu Mar 05 02:04:55 +0000 2026",
-      "engagementRate": 0.51,
-      "tweetUrl": "https://x.com/levelsio/status/2029377585830896032",
-      "media": [
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCnMJxXXMAA9bMA.jpg"
-        },
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCnMJx-awAImCH4.jpg"
-        },
-        {
-          "type": "image",
-          "url": "https://pbs.twimg.com/media/HCnMJxeXYAEp7uA.jpg"
-        }
-      ]
-    },
-    {
-      "id": "real_2029377695188959384",
-      "accountId": "t6",
-      "platform": "twitter",
-      "content": "I ate 600g of steak!",
-      "type": "text",
-      "likes": 51,
-      "retweets": 0,
-      "replies": 19,
-      "bookmarks": 1,
-      "views": 14984,
-      "timestamp": "Thu Mar 05 02:05:21 +0000 2026",
-      "engagementRate": 0.47,
-      "tweetUrl": "https://x.com/levelsio/status/2029377695188959384",
-      "media": []
-    },
-    {
-      "id": "real_2029365950919627148",
-      "accountId": "t6",
-      "platform": "twitter",
-      "content": "A Brazilian today told me she visited Europe a week ago\n\nShe says she felt more unsafe in Europe than the city were she's from in South Brazil, Curitiba, which is pretty safe\n\nShe felt most unsafe in Belgium and the Netherlands\n\nWhich is really sad to hear as a Dutch person that it has come to this\n\nShe was followed by three guys after getting off at the train, who were signalling things to each other as if they were gonna try rob her or worse\n\nShe then fled to a group of local guys to act like she was their friend so they got away from her\n\nOf course one thing to note she was in the center of Amsterdam and Brussels, which you wouldn't wish to anybody, but then again it's crazy we can't keep our centers in Europe safe anymore\n\nIn North and South America, downtown cities are generally like this, full of crime, junkies, etc, Brazil of course too, but Europe's centers used to be nice and historical and cute and clean and SAFE!",
-      "type": "text",
-      "likes": 4359,
-      "retweets": 143,
-      "replies": 290,
-      "bookmarks": 321,
-      "views": 255254,
-      "timestamp": "Thu Mar 05 01:18:41 +0000 2026",
-      "engagementRate": 2.0,
-      "tweetUrl": "https://x.com/levelsio/status/2029365950919627148",
-      "media": []
-    },
-    {
-      "id": "real_2029374279712719221",
-      "accountId": "t6",
-      "platform": "twitter",
-      "content": "Of course I did not pass the opportunity to spam her my site https://t.co/Mb2FUp6cuW",
-      "type": "text",
-      "likes": 70,
       "retweets": 1,
-      "replies": 3,
-      "bookmarks": 31,
-      "views": 29523,
-      "timestamp": "Thu Mar 05 01:51:46 +0000 2026",
-      "engagementRate": 0.36,
-      "tweetUrl": "https://x.com/levelsio/status/2029374279712719221",
-      "media": []
-    },
-    {
-      "id": "real_2028482060646486108",
-      "accountId": "t9",
-      "platform": "twitter",
-      "content": "RT @GridBrief: If we continue apologizing for demand, we're doomed. The big tech theatrics of last week are a sign of a broken capacity cul\u2026",
-      "type": "text",
-      "likes": 0,
-      "retweets": 2,
       "replies": 0,
       "bookmarks": 0,
       "views": 0,
-      "timestamp": "Mon Mar 02 14:46:25 +0000 2026",
+      "timestamp": "2026-02-10T18:23:22+00:00",
       "engagementRate": 0,
-      "tweetUrl": "https://x.com/GridBrief/status/2028482060646486108",
+      "tweetUrl": "https://x.com/EIAgov/status/2021288902326124963",
       "media": []
     },
     {
-      "id": "real_2028480586646532536",
-      "accountId": "t9",
+      "id": "real_1699332720739103005",
+      "accountId": "t3",
       "platform": "twitter",
-      "content": "If we continue apologizing for demand, we're doomed. The big tech theatrics of last week are a sign of a broken capacity culture. And it's time we turn it around. \n\nhttps://t.co/pN9U29dS8b",
-      "type": "text",
-      "likes": 5,
-      "retweets": 2,
-      "replies": 1,
-      "bookmarks": 1,
-      "views": 28851,
-      "timestamp": "Mon Mar 02 14:40:33 +0000 2026",
-      "engagementRate": 0.03,
-      "tweetUrl": "https://x.com/GridBrief/status/2028480586646532536",
-      "media": []
-    },
-    {
-      "id": "real_2028102336896229762",
-      "accountId": "t9",
-      "platform": "twitter",
-      "content": "RT @nukebarbarian: NIMBY NGO-ism is largely divorced from the classes they claim to \"represent.\"\n\nTo them, the \"working class\" is not labor\u2026",
-      "type": "text",
-      "likes": 0,
-      "retweets": 13,
-      "replies": 0,
-      "bookmarks": 0,
-      "views": 1,
-      "timestamp": "Sun Mar 01 13:37:32 +0000 2026",
-      "engagementRate": 1300.0,
-      "tweetUrl": "https://x.com/GridBrief/status/2028102336896229762",
-      "media": []
-    },
-    {
-      "id": "real_2018403535705051346",
-      "accountId": "t9",
-      "platform": "twitter",
-      "content": "RT @amcapproject: There\u2019s no shortage of power in America.\n\nThere are roughly 2,000 GW of proposed generation sitting in interconnection qu\u2026",
-      "type": "text",
-      "likes": 0,
-      "retweets": 2,
-      "replies": 0,
-      "bookmarks": 0,
-      "views": 0,
-      "timestamp": "Mon Feb 02 19:17:57 +0000 2026",
-      "engagementRate": 0,
-      "tweetUrl": "https://x.com/GridBrief/status/2018403535705051346",
-      "media": []
-    },
-    {
-      "id": "real_2016189400552534518",
-      "accountId": "t9",
-      "platform": "twitter",
-      "content": "RT @nukebarbarian: Still bleakly funny to me that New England shutdown nuclear plants only to rely on oil in winter.",
-      "type": "text",
-      "likes": 0,
-      "retweets": 22,
-      "replies": 0,
-      "bookmarks": 0,
-      "views": 0,
-      "timestamp": "Tue Jan 27 16:39:46 +0000 2026",
-      "engagementRate": 0,
-      "tweetUrl": "https://x.com/GridBrief/status/2016189400552534518",
-      "media": []
-    },
-    {
-      "id": "real_2014354504250949953",
-      "accountId": "t9",
-      "platform": "twitter",
-      "content": "Rate freezes are spreading as electricity prices rise.\n\nToday\u2019s @GridBrief chart shows why that approach rarely works: portfolios that restrict firm supply push long-run system costs higher, even under favorable assumptions.\n\nSuppressing prices may buy time politically. It doesn\u2019t create capacity.\nhttps://t.co/ISgpUxzKlU",
+      "content": "A friendly reminder to anyone following this account, @SPGCI is the main brand account. This account is no longer maintained. #APPEC",
       "type": "text",
       "likes": 1,
       "retweets": 0,
       "replies": 0,
       "bookmarks": 0,
-      "views": 155,
-      "timestamp": "Thu Jan 22 15:08:33 +0000 2026",
-      "engagementRate": 0.65,
-      "tweetUrl": "https://x.com/GridBrief/status/2014354504250949953",
+      "views": 1254,
+      "timestamp": "2023-09-06T08:04:27+00:00",
+      "engagementRate": 0.08,
+      "tweetUrl": "https://x.com/SPGlobalPlatts/status/1699332720739103005",
       "media": []
     },
     {
-      "id": "real_2014354289531990507",
-      "accountId": "t9",
+      "id": "real_1639000120552312842",
+      "accountId": "t3",
       "platform": "twitter",
-      "content": "RT @marcoestreich: New Jersey is freezing bills, pushing VPPs, and telling itself the problem is pricing.\n\nMeanwhile, today\u2019s @GridBrief  c\u2026",
+      "content": "Notice: Follow @SPGCI for all updates. This account is no longer maintained.",
       "type": "text",
       "likes": 0,
-      "retweets": 2,
-      "replies": 0,
-      "bookmarks": 0,
-      "views": 0,
-      "timestamp": "Thu Jan 22 15:07:42 +0000 2026",
-      "engagementRate": 0,
-      "tweetUrl": "https://x.com/GridBrief/status/2014354289531990507",
-      "media": []
-    },
-    {
-      "id": "real_2009345534268768314",
-      "accountId": "t9",
-      "platform": "twitter",
-      "content": "RT @jamiesloc: Nice piece from @GridBrief today:\n\nState Electricity Prices vs. the U.S. Average\nThis map shows average all-sector electrici\u2026",
-      "type": "text",
-      "likes": 0,
-      "retweets": 1,
-      "replies": 0,
-      "bookmarks": 0,
-      "views": 0,
-      "timestamp": "Thu Jan 08 19:24:41 +0000 2026",
-      "engagementRate": 0,
-      "tweetUrl": "https://x.com/GridBrief/status/2009345534268768314",
-      "media": []
-    },
-    {
-      "id": "real_2008207784509362431",
-      "accountId": "t9",
-      "platform": "twitter",
-      "content": "Special Issue: The Venezuelan Grid. Hydro is old, output has cratered, and demand already beats supply. The U.S. just inherited a grid crisis before the lights even go out.\n\nhttps://t.co/oC2Afy28Cv",
-      "type": "text",
-      "likes": 3,
       "retweets": 0,
       "replies": 0,
       "bookmarks": 0,
-      "views": 148,
-      "timestamp": "Mon Jan 05 16:03:41 +0000 2026",
-      "engagementRate": 2.03,
-      "tweetUrl": "https://x.com/GridBrief/status/2008207784509362431",
+      "views": 1468,
+      "timestamp": "2023-03-23T20:24:14+00:00",
+      "engagementRate": 0.0,
+      "tweetUrl": "https://x.com/SPGlobalPlatts/status/1639000120552312842",
       "media": []
     },
     {
-      "id": "real_2001685871129460877",
-      "accountId": "t9",
+      "id": "real_1498722378360176641",
+      "accountId": "t3",
       "platform": "twitter",
-      "content": "This is what policymakers miss when they treat data centers like a nuisance.\n\nAI dominance runs through the grid.\nAnd China is building. https://t.co/1qiZnc8W2L",
-      "type": "image",
-      "likes": 2,
-      "retweets": 1,
+      "content": "RT @SPGCI: It\u2019s the beginning of a new chapter that brings @IHSMarkitEnergy and S&amp;P Global Platts together under a unified name, S&amp;P Global\u2026",
+      "type": "text",
+      "likes": 0,
+      "retweets": 6,
       "replies": 0,
       "bookmarks": 0,
-      "views": 134,
-      "timestamp": "Thu Dec 18 16:07:55 +0000 2025",
-      "engagementRate": 2.24,
-      "tweetUrl": "https://x.com/GridBrief/status/2001685871129460877",
+      "views": 0,
+      "timestamp": "2022-03-01T18:10:34+00:00",
+      "engagementRate": 0,
+      "tweetUrl": "https://x.com/SPGlobalPlatts/status/1498722378360176641",
+      "media": []
+    },
+    {
+      "id": "real-t11-2029645114218287280",
+      "accountId": "t11",
+      "platform": "twitter",
+      "content": "RT @ashleevance: We got the first look inside the @tesla semi factory. It's enormous and quite spectacular. Episode coming soon here and on\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 512,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2029645114218287280",
+      "timestamp": "Thu Mar 05 19:47:58 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t11-2029621893154615353",
+      "accountId": "t11",
+      "platform": "twitter",
+      "content": "the best way to delete a performative fake culture, is to outperform it with real progress that destroys incentives to be performative. substance &gt; attention.",
+      "type": "text",
+      "metrics": {
+        "likes": 57,
+        "retweets": 2,
+        "replies": 2,
+        "bookmarks": 5,
+        "views": "3760"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2029621893154615353",
+      "timestamp": "Thu Mar 05 18:15:42 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t11-2029608230414925865",
+      "accountId": "t11",
+      "platform": "twitter",
+      "content": "more factories",
+      "type": "text",
+      "metrics": {
+        "likes": 85,
+        "retweets": 1,
+        "replies": 3,
+        "bookmarks": 2,
+        "views": "3852"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2029608230414925865",
+      "timestamp": "Thu Mar 05 17:21:25 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t11-2029588367407567234",
+      "accountId": "t11",
+      "platform": "twitter",
+      "content": "RT @maxhodak_: excited to announce that we've raised a $230 million series c to get our retinal prosthesis to market and our biohybrid and\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 46,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": "1"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2029588367407567234",
+      "timestamp": "Thu Mar 05 16:02:29 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t11-2029584068262649930",
+      "accountId": "t11",
+      "platform": "twitter",
+      "content": "RT @codyaims: LUCAS &lt;&gt; COLAB pic from last year\n\n2 unspecialized guys can learn all the skills to make practically unlimited units, from an\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 20,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": "2"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2029584068262649930",
+      "timestamp": "Thu Mar 05 15:45:24 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t11-2029383929124254109",
+      "accountId": "t11",
+      "platform": "twitter",
+      "content": "oh so, like the rustbelt https://t.co/0RG8J4BnWO",
+      "type": "image",
+      "metrics": {
+        "likes": 441,
+        "retweets": 16,
+        "replies": 13,
+        "bookmarks": 44,
+        "views": "26767"
+      },
       "media": [
         {
           "type": "image",
-          "url": "https://pbs.twimg.com/media/G8dqrwYWUAEMaPG.jpg"
+          "url": "https://pbs.twimg.com/media/HCnPRF9WAAErOMf.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCnPTv6XoAAGqzC.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCnPYdJWQAAKeEg.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCnRy53WsAAd-4P.jpg"
         }
-      ]
+      ],
+      "linkUrl": "https://x.com/aphysicist/status/2029383929124254109",
+      "timestamp": "Thu Mar 05 02:30:07 +0000 2026",
+      "isReal": true
     },
     {
-      "id": "real_2001684288194974163",
-      "accountId": "t9",
+      "id": "real-t11-2029360927531827481",
+      "accountId": "t11",
       "platform": "twitter",
-      "content": "Politicians yelling at AI data centers about power prices is like blaming FedEx for the cost of gasoline.\n\nDemand didn\u2019t fail. Regulators fumbled supply.",
+      "content": "amazing",
       "type": "text",
-      "likes": 3,
-      "retweets": 1,
-      "replies": 1,
-      "bookmarks": 0,
-      "views": 144,
-      "timestamp": "Thu Dec 18 16:01:38 +0000 2025",
-      "engagementRate": 3.47,
-      "tweetUrl": "https://x.com/GridBrief/status/2001684288194974163",
-      "media": []
+      "metrics": {
+        "likes": 20,
+        "retweets": 1,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": "2993"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2029360927531827481",
+      "timestamp": "Thu Mar 05 00:58:43 +0000 2026",
+      "isReal": true
     },
     {
-      "id": "real_2001684942212714711",
-      "accountId": "t9",
+      "id": "real-t11-2029257683988054477",
+      "accountId": "t11",
       "platform": "twitter",
-      "content": "This pricing panic didn\u2019t come out of nowhere.\n\nMore detail in today\u2019s GridBrief.\nhttps://t.co/umbgdUQ0jo",
+      "content": "few",
       "type": "text",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "bookmarks": 0,
-      "views": 114,
-      "timestamp": "Thu Dec 18 16:04:14 +0000 2025",
-      "engagementRate": 0.0,
-      "tweetUrl": "https://x.com/GridBrief/status/2001684942212714711",
-      "media": []
+      "metrics": {
+        "likes": 86,
+        "retweets": 1,
+        "replies": 4,
+        "bookmarks": 5,
+        "views": "4472"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2029257683988054477",
+      "timestamp": "Wed Mar 04 18:08:28 +0000 2026",
+      "isReal": true
     },
     {
-      "id": "real_1777498122857398705",
-      "accountId": "t9",
+      "id": "real-t11-2029225505468084404",
+      "accountId": "t11",
       "platform": "twitter",
-      "content": "https://t.co/0SJCnSK4iC",
+      "content": "this guy has been an op from day one, totally unremarkable",
       "type": "text",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 1,
-      "bookmarks": 0,
-      "views": 599,
-      "timestamp": "Tue Apr 09 00:45:51 +0000 2024",
-      "engagementRate": 0.17,
-      "tweetUrl": "https://x.com/GridBrief/status/1777498122857398705",
-      "media": []
+      "metrics": {
+        "likes": 166,
+        "retweets": 1,
+        "replies": 8,
+        "bookmarks": 41,
+        "views": "29474"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2029225505468084404",
+      "timestamp": "Wed Mar 04 16:00:36 +0000 2026",
+      "isReal": true
     },
     {
-      "id": "real_1776270854432657478",
-      "accountId": "t9",
+      "id": "real-t11-2029249375357055337",
+      "accountId": "t11",
       "platform": "twitter",
-      "content": "https://t.co/PNTR8KW9bJ",
+      "content": "don't hate the player hate the game",
       "type": "text",
-      "likes": 0,
-      "retweets": 1,
-      "replies": 0,
-      "bookmarks": 0,
-      "views": 447,
-      "timestamp": "Fri Apr 05 15:29:07 +0000 2024",
-      "engagementRate": 0.22,
-      "tweetUrl": "https://x.com/GridBrief/status/1776270854432657478",
-      "media": []
+      "metrics": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": "1395"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2029249375357055337",
+      "timestamp": "Wed Mar 04 17:35:27 +0000 2026",
+      "isReal": true
     },
     {
-      "id": "real_1772641545042252163",
-      "accountId": "t9",
+      "id": "real-t11-2029164624243737034",
+      "accountId": "t11",
       "platform": "twitter",
-      "content": "Here's today's Grid Brief:\n\n\u269b\ufe0f @TerraPower plans to start building its reactor\n\ud83d\udfe9 America's lithium mining push sapped by regs\n\nand more!\n\nhttps://t.co/65HeBOrLDZ",
+      "content": "atoms are the final frontier of ai. no other company has a physical moat to help it learn at the rate that elon can through cars, flight, and factories.",
       "type": "text",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "bookmarks": 0,
-      "views": 434,
-      "timestamp": "Tue Mar 26 15:07:33 +0000 2024",
-      "engagementRate": 0.46,
-      "tweetUrl": "https://x.com/GridBrief/status/1772641545042252163",
-      "media": []
+      "metrics": {
+        "likes": 199,
+        "retweets": 10,
+        "replies": 9,
+        "bookmarks": 22,
+        "views": "9064"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2029164624243737034",
+      "timestamp": "Wed Mar 04 11:58:41 +0000 2026",
+      "isReal": true
     },
     {
-      "id": "real_1770832157977518507",
-      "accountId": "t9",
+      "id": "real-t11-2029035985871224968",
+      "accountId": "t11",
       "platform": "twitter",
-      "content": "Today's Grid Brief is a guest op-ed from @mitchrolling and @TheFrackingGuy. \n\nCheck it out! \nhttps://t.co/qt8D3HRig9",
-      "type": "text",
-      "likes": 5,
-      "retweets": 3,
-      "replies": 0,
-      "bookmarks": 1,
-      "views": 687,
-      "timestamp": "Thu Mar 21 15:17:41 +0000 2024",
-      "engagementRate": 1.31,
-      "tweetUrl": "https://x.com/GridBrief/status/1770832157977518507",
-      "media": []
+      "content": "RT @AtelierMissor_: 50-ft Prometheus, soon to be shipped to the USA. https://t.co/gACbzJriJm",
+      "type": "image",
+      "metrics": {
+        "likes": 0,
+        "retweets": 410,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": "4"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2028973657419141120/img/bnzF68XnxX3oDyDC.jpg",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2028973657419141120/img/bnzF68XnxX3oDyDC.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/aphysicist/status/2029035985871224968",
+      "timestamp": "Wed Mar 04 03:27:31 +0000 2026",
+      "isReal": true
     },
     {
-      "id": "real_1770500486833000545",
-      "accountId": "t9",
+      "id": "real-t11-2028903013390107033",
+      "accountId": "t11",
       "platform": "twitter",
-      "content": "https://t.co/o1O0yjWI7q",
-      "type": "text",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "bookmarks": 0,
-      "views": 268,
-      "timestamp": "Wed Mar 20 17:19:45 +0000 2024",
-      "engagementRate": 0.0,
-      "tweetUrl": "https://x.com/GridBrief/status/1770500486833000545",
-      "media": []
+      "content": "RT @pmarca: THAT'S RIGHT. \ud83c\uddfa\ud83c\uddf8 https://t.co/Y8PFNQmfsL",
+      "type": "image",
+      "metrics": {
+        "likes": 0,
+        "retweets": 585,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": "1"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2028892406926737408/img/GMJf-b7_TqRglNBF.jpg",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2028892406926737408/img/GMJf-b7_TqRglNBF.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/aphysicist/status/2028903013390107033",
+      "timestamp": "Tue Mar 03 18:39:08 +0000 2026",
+      "isReal": true
     },
     {
-      "id": "real_1769755222446895574",
-      "accountId": "t9",
+      "id": "real-t11-2028829233469161617",
+      "accountId": "t11",
       "platform": "twitter",
-      "content": "Today's premium post takes a look at the history and development of wind energy and what's vexing the industry today. \n\nhttps://t.co/ZrPHx1LUnZ",
-      "type": "text",
-      "likes": 0,
-      "retweets": 1,
-      "replies": 0,
-      "bookmarks": 0,
-      "views": 327,
-      "timestamp": "Mon Mar 18 15:58:20 +0000 2024",
-      "engagementRate": 0.31,
-      "tweetUrl": "https://x.com/GridBrief/status/1769755222446895574",
-      "media": []
+      "content": "RT @kyleanthony: The Brass Hands store is launching on Thursday\n\nLIMITED RELEASE:\u00a0[01]\u00a0RE-IND ISSUE https://t.co/3KWBv92xFr",
+      "type": "image",
+      "metrics": {
+        "likes": 0,
+        "retweets": 22,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": "1"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCfPu2XW8AEk3eP.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/aphysicist/status/2028829233469161617",
+      "timestamp": "Tue Mar 03 13:45:57 +0000 2026",
+      "isReal": true
     },
     {
-      "id": "real_1764759631774003603",
-      "accountId": "t9",
+      "id": "real-t11-2028537153576157232",
+      "accountId": "t11",
       "platform": "twitter",
-      "content": "Today's Grid Brief International delves into Qatar's master plan to corner the LNG market.\n\nhttps://t.co/eAzdWBxKMk",
+      "content": "RT @dansgoldin: A big sermon of mine has been: BUILD YOUR OWN GOLDEN AGE. \n\nI believe your Golden Age will come not from shiny announcement\u2026",
       "type": "text",
-      "likes": 0,
-      "retweets": 0,
-      "replies": 0,
-      "bookmarks": 0,
-      "views": 301,
-      "timestamp": "Mon Mar 04 21:07:38 +0000 2024",
-      "engagementRate": 0.0,
-      "tweetUrl": "https://x.com/GridBrief/status/1764759631774003603",
-      "media": []
+      "metrics": {
+        "likes": 0,
+        "retweets": 6,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2028537153576157232",
+      "timestamp": "Mon Mar 02 18:25:20 +0000 2026",
+      "isReal": true
     },
     {
-      "id": "real_1762489356189597812",
-      "accountId": "t9",
+      "id": "real-t11-2028495064939344131",
+      "accountId": "t11",
       "platform": "twitter",
-      "content": "Today's Grid Brief is a guest op-ed from @AngelicaOung.\n\n\"Google needs Gigawatts! So does Microsoft, Facebook and others. Is new load promoting new thinking in the homeland of commercial nuclear?\"\n\nhttps://t.co/9Wlh4S6AHg",
+      "content": "RT @alexisohanian: Founders: If you're building the infrastructure of abundance, I want to fund you at the earliest possible stage. @sevens\u2026",
       "type": "text",
-      "likes": 14,
-      "retweets": 5,
-      "replies": 1,
-      "bookmarks": 0,
-      "views": 1115,
-      "timestamp": "Tue Feb 27 14:46:22 +0000 2024",
-      "engagementRate": 1.79,
-      "tweetUrl": "https://x.com/GridBrief/status/1762489356189597812",
-      "media": []
+      "metrics": {
+        "likes": 0,
+        "retweets": 102,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": "1"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2028495064939344131",
+      "timestamp": "Mon Mar 02 15:38:05 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t11-2028455183244468253",
+      "accountId": "t11",
+      "platform": "twitter",
+      "content": "hmmmmm true",
+      "type": "text",
+      "metrics": {
+        "likes": 68,
+        "retweets": 4,
+        "replies": 9,
+        "bookmarks": 5,
+        "views": "5633"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2028455183244468253",
+      "timestamp": "Mon Mar 02 12:59:37 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t11-2028308559088214208",
+      "accountId": "t11",
+      "platform": "twitter",
+      "content": "https://t.co/lQn2uxoV0S",
+      "type": "text",
+      "metrics": {
+        "likes": 1942,
+        "retweets": 301,
+        "replies": 109,
+        "bookmarks": 2562,
+        "views": "370147"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2028308559088214208",
+      "timestamp": "Mon Mar 02 03:16:59 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t11-2028319492380426611",
+      "accountId": "t11",
+      "platform": "twitter",
+      "content": "@grok can america actually build their own version of shenzen if they follow this article?",
+      "type": "text",
+      "metrics": {
+        "likes": 57,
+        "retweets": 1,
+        "replies": 3,
+        "bookmarks": 16,
+        "views": "15153"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2028319492380426611",
+      "timestamp": "Mon Mar 02 04:00:25 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t11-2028311961482481946",
+      "accountId": "t11",
+      "platform": "twitter",
+      "content": "there will almost certainly be casualties in covering everything going on, i apologize in advance if i missed anything, please tag",
+      "type": "text",
+      "metrics": {
+        "likes": 41,
+        "retweets": 1,
+        "replies": 3,
+        "bookmarks": 1,
+        "views": "11840"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2028311961482481946",
+      "timestamp": "Mon Mar 02 03:30:30 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t11-2028110799567220822",
+      "accountId": "t11",
+      "platform": "twitter",
+      "content": "hard tech companies have 2-5% odds of achieving $250M+ exits, while saas, fintech, and AI companies have 1-1.5% odds. per-company probability of a large exit is roughly twice as high in deep tech as in software. the exits also arrive 6-24 months sooner on average",
+      "type": "text",
+      "metrics": {
+        "likes": 488,
+        "retweets": 36,
+        "replies": 29,
+        "bookmarks": 158,
+        "views": "116061"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2028110799567220822",
+      "timestamp": "Sun Mar 01 14:11:09 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t11-2028310651538448550",
+      "accountId": "t11",
+      "platform": "twitter",
+      "content": "https://t.co/HAmkYx2n9w",
+      "type": "text",
+      "metrics": {
+        "likes": 11,
+        "retweets": 0,
+        "replies": 0,
+        "bookmarks": 7,
+        "views": "3355"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/aphysicist/status/2028310651538448550",
+      "timestamp": "Mon Mar 02 03:25:18 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2026389072021958689",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "Congrats to @aaronlucas21 and @amit_ajwani \n\nThis is huge",
+      "type": "text",
+      "metrics": {
+        "likes": 32,
+        "retweets": 0,
+        "replies": 2,
+        "bookmarks": 1,
+        "views": "2265"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/fabworks_guy/status/2026389072021958689",
+      "timestamp": "Tue Feb 24 20:09:37 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2024294275757068417",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "ai cad saas posting impossible ai slop sheet metal (tube?) parts. Bad DFM will be the new hallucination. https://t.co/wQCgf78XeF",
+      "type": "image",
+      "metrics": {
+        "likes": 74,
+        "retweets": 0,
+        "replies": 7,
+        "bookmarks": 13,
+        "views": "5496"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HBe86ivbUAEoZYm.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HBe86iqbUAEqjQR.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/fabworks_guy/status/2024294275757068417",
+      "timestamp": "Thu Feb 19 01:25:39 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2023908727825592702",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "Tube laser self fixturing is incredibly slept on",
+      "type": "text",
+      "metrics": {
+        "likes": 110,
+        "retweets": 3,
+        "replies": 5,
+        "bookmarks": 27,
+        "views": "6277"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/fabworks_guy/status/2023908727825592702",
+      "timestamp": "Tue Feb 17 23:53:37 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2023892410422751279",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "Anyone in LA area interested in this amada sheet metal laser?\n\nC02 lasers are outdated due to cheap import fibers but this is a decent entry level machine considering we are practically giving it away (low 5 figures, pay your own shipping, we will handle rigging onto a truck)\n\nIt also comes with its own nitrogen generation system (and air compressor) so you don\u2019t need to pay for cutting gas.\n\nThis machine served us well, still running parts cut quality is amazing. Would keep it around if we could but we need the floor space for our new 10kw machine.\n\nDM me if interested",
+      "type": "image",
+      "metrics": {
+        "likes": 118,
+        "retweets": 6,
+        "replies": 13,
+        "bookmarks": 18,
+        "views": "7626"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HBZPaxVaUAAeMLd.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HBZPaxUbcAIuVSa.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/fabworks_guy/status/2023892410422751279",
+      "timestamp": "Tue Feb 17 22:48:47 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2022184637456646231",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "Just cut our largest PO to date...\n\nThis one will ~3x our laser cutting capacity with a new 10kw fiber laser. Hope to have it up and running in around a month. \n\nWe will not stop until we are the fastest way for you to get laser cut parts \ud83e\udee1 https://t.co/nlVFCVmhWq",
+      "type": "image",
+      "metrics": {
+        "likes": 163,
+        "retweets": 4,
+        "replies": 10,
+        "bookmarks": 6,
+        "views": "4374"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HBA8vzYbsAMK28w.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/fabworks_guy/status/2022184637456646231",
+      "timestamp": "Fri Feb 13 05:42:42 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2021676509724065803",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "Reminder to us all that it\u2019s an amazing time to be building physical things with atoms.",
+      "type": "text",
+      "metrics": {
+        "likes": 42,
+        "retweets": 1,
+        "replies": 1,
+        "bookmarks": 4,
+        "views": "6055"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/fabworks_guy/status/2021676509724065803",
+      "timestamp": "Wed Feb 11 20:03:35 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2019858858995511379",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "Racks of Mac minis \ud83d\uded1\n\nRacks of sheet metal parts \u2705 https://t.co/c2dp2Qmdvm",
+      "type": "image",
+      "metrics": {
+        "likes": 53,
+        "retweets": 1,
+        "replies": 3,
+        "bookmarks": 8,
+        "views": "4279"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2019858780838936576/img/maqEAqfksAMV0tia.jpg",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2019858780838936576/img/maqEAqfksAMV0tia.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/fabworks_guy/status/2019858858995511379",
+      "timestamp": "Fri Feb 06 19:40:53 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2018820397693870179",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "Making storage for tubes outta tubes on the tube laser \ud83d\udc4d\ud83c\udffd https://t.co/5wcCCWtOOi",
+      "type": "image",
+      "metrics": {
+        "likes": 102,
+        "retweets": 1,
+        "replies": 13,
+        "bookmarks": 6,
+        "views": "2819"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HARKc7baoAAT99e.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/fabworks_guy/status/2018820397693870179",
+      "timestamp": "Tue Feb 03 22:54:25 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2018476671373046119",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "Glad I opened my \u201cjunk mail\u201d today. https://t.co/aAIXLPCnOD",
+      "type": "image",
+      "metrics": {
+        "likes": 651,
+        "retweets": 10,
+        "replies": 19,
+        "bookmarks": 49,
+        "views": "87978"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HAMR1a7akAApRwS.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/fabworks_guy/status/2018476671373046119",
+      "timestamp": "Tue Feb 03 00:08:34 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2015997894739079590",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "Today we got the most orders we have ever gotten in a single day by a factor of 2x! All quoted instantly on our website and payment collected up front. Most these orders will ship out before the end of the week some as soon as tomorrow. Manufacturing doesn\u2019t have to suck.",
+      "type": "text",
+      "metrics": {
+        "likes": 120,
+        "retweets": 2,
+        "replies": 7,
+        "bookmarks": 7,
+        "views": "3823"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/fabworks_guy/status/2015997894739079590",
+      "timestamp": "Tue Jan 27 03:58:48 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2011489922579157004",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "Here is a cool visualization of all the computational geometry going on under the hood to make this possible https://t.co/V1wFWUqTVA",
+      "type": "image",
+      "metrics": {
+        "likes": 35,
+        "retweets": 0,
+        "replies": 1,
+        "bookmarks": 5,
+        "views": "2003"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2011489766571982849/img/FfNTKQMWEzZQak9M.jpg",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2011489766571982849/img/FfNTKQMWEzZQak9M.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/fabworks_guy/status/2011489922579157004",
+      "timestamp": "Wed Jan 14 17:25:43 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2011488084735770688",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "Our instant quote welding UI now supports stitch and tack welds. \n\nDM for beta access! https://t.co/UBIeQecTun",
+      "type": "image",
+      "metrics": {
+        "likes": 160,
+        "retweets": 4,
+        "replies": 8,
+        "bookmarks": 25,
+        "views": "11510"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2011487898550616067/img/J2zeGnbc0X9-H5Ks.jpg",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2011487898550616067/img/J2zeGnbc0X9-H5Ks.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/fabworks_guy/status/2011488084735770688",
+      "timestamp": "Wed Jan 14 17:18:25 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2006459077594067289",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "1 year anniversary of when I came across the tube laser, been up and running for a little under 9 months. \n\nFinally approaching a healthy amount of work on it and bringing in some more employees to get utilization up.\n\nHad a huge end of the year which is famously slow for manufacturing, excited for our Q1.",
+      "type": "image",
+      "metrics": {
+        "likes": 180,
+        "retweets": 6,
+        "replies": 4,
+        "bookmarks": 23,
+        "views": "7037"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/G9hfw3eaMAAzhaS.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/fabworks_guy/status/2006459077594067289",
+      "timestamp": "Wed Dec 31 20:14:56 +0000 2025",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2006038978902827299",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "This debate should be settled like men\u2026 with a game of bedwars on hypixel.",
+      "type": "text",
+      "metrics": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 1,
+        "bookmarks": 0,
+        "views": "1544"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/fabworks_guy/status/2006038978902827299",
+      "timestamp": "Tue Dec 30 16:25:37 +0000 2025",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2004990219783995845",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "Engineers of X, I\u2019ve put off getting a robot vacuum for way too long. What\u2019s the best these days?",
+      "type": "text",
+      "metrics": {
+        "likes": 23,
+        "retweets": 0,
+        "replies": 19,
+        "bookmarks": 9,
+        "views": "7982"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/fabworks_guy/status/2004990219783995845",
+      "timestamp": "Sat Dec 27 18:58:13 +0000 2025",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2003907797059342694",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "Power went out after having our largest week of sales by 2x. \n\nChristmas miracle if this comes back on quickly \ud83d\ude05 https://t.co/xXohxuwJKI",
+      "type": "image",
+      "metrics": {
+        "likes": 87,
+        "retweets": 1,
+        "replies": 6,
+        "bookmarks": 2,
+        "views": "5404"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/G89Pg1vXYAAvYh-.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/fabworks_guy/status/2003907797059342694",
+      "timestamp": "Wed Dec 24 19:17:04 +0000 2025",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2003228375205445796",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "Cool visualization of all the computational geometry going on under the hood to detect valid welding locations https://t.co/tCnAf0tChl",
+      "type": "image",
+      "metrics": {
+        "likes": 105,
+        "retweets": 2,
+        "replies": 1,
+        "bookmarks": 22,
+        "views": "18482"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2003227911822921728/img/XTJC2LsSMaBOBAbZ.jpg",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2003227911822921728/img/XTJC2LsSMaBOBAbZ.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/fabworks_guy/status/2003228375205445796",
+      "timestamp": "Mon Dec 22 22:17:17 +0000 2025",
+      "isReal": true
+    },
+    {
+      "id": "real-t12-2003166844409291165",
+      "accountId": "t12",
+      "platform": "twitter",
+      "content": "I\u2019ve been saying this for ages! All forms of manufacturing converge to wood shops with scale. https://t.co/aqVSvke00l",
+      "type": "image",
+      "metrics": {
+        "likes": 57,
+        "retweets": 1,
+        "replies": 5,
+        "bookmarks": 5,
+        "views": "4399"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/G8ytoJNaUAAq_nM.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/fabworks_guy/status/2003166844409291165",
+      "timestamp": "Mon Dec 22 18:12:47 +0000 2025",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2029289472492536236",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "2026 pivots:\n\ncrypto -&gt; robotics\nai -&gt; robotics\nmanufacturing -&gt; robotics\nagents -&gt; robotics\n3d printing -&gt; robotics\n\nand if you want to sound really smart,\njust replace robotics with embodied ai",
+      "type": "text",
+      "metrics": {
+        "likes": 452,
+        "retweets": 37,
+        "replies": 53,
+        "bookmarks": 77,
+        "views": "23866"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/emily_yu/status/2029289472492536236",
+      "timestamp": "Wed Mar 04 20:14:47 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2028950535521616276",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "RT @BraytonKey: The @BoostVC Founder Summit kicks off!\n\n21 companies\n\nBio, Energy, AI, Industrials, Robotics, Space\n\nFounders from US, Cana\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 5,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/emily_yu/status/2028950535521616276",
+      "timestamp": "Tue Mar 03 21:47:58 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2028176363497419074",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "the future belongs to those who can move atoms at the speed of bits.",
+      "type": "text",
+      "metrics": {
+        "likes": 54,
+        "retweets": 5,
+        "replies": 2,
+        "bookmarks": 12,
+        "views": "4156"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/emily_yu/status/2028176363497419074",
+      "timestamp": "Sun Mar 01 18:31:41 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2028165957475262926",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "if you have a laptop and internet,\nyou have distribution and leverage.\n\nin 2026, the bottleneck isn\u2019t credentials, capital, or connections.\nit\u2019s ambition.\n\nbuild something unreasonable.",
+      "type": "text",
+      "metrics": {
+        "likes": 57,
+        "retweets": 4,
+        "replies": 12,
+        "bookmarks": 7,
+        "views": "2062"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/emily_yu/status/2028165957475262926",
+      "timestamp": "Sun Mar 01 17:50:20 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2027283368753459546",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "the unlock of dexterous manipulation,  @DanielXieee & Origami is paving the way. gearboxes kill force transparency and break sim2real. rare to see a team with both the technical depth and the deployment mindset. the ones who think about real world constraints from day one are the ones who ship",
+      "type": "text",
+      "metrics": {
+        "likes": 25,
+        "retweets": 1,
+        "replies": 1,
+        "bookmarks": 10,
+        "views": "4431"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/emily_yu/status/2027283368753459546",
+      "timestamp": "Fri Feb 27 07:23:14 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2026391273742151802",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "the data problem for physical AI isn't volume, it's modality. tactile, contact-rich data doesn't exist at scale. cool to see @PalatialSim and @stevenRSim building the pipeline to generate the missing input layer for embodied intelligence",
+      "type": "text",
+      "metrics": {
+        "likes": 32,
+        "retweets": 5,
+        "replies": 6,
+        "bookmarks": 17,
+        "views": "5466"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/emily_yu/status/2026391273742151802",
+      "timestamp": "Tue Feb 24 20:18:22 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2026424433523798460",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "@PalatialSim @stevenRSim @PalatialSim https://t.co/2kIdO65r0e",
+      "type": "image",
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1,
+        "bookmarks": 0,
+        "views": "236"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HB9ON7UaMAE4WxN.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/emily_yu/status/2026424433523798460",
+      "timestamp": "Tue Feb 24 22:30:08 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2026185430379688280",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "these days i can't tell:\n\n- real vs. ai video\n- friends vs. their agent\n- flirting vs. a chatbot with good rizz\n- using a product vs. being the product\n\nmaybe agi / asi is just a permanent state of confusion",
+      "type": "text",
+      "metrics": {
+        "likes": 12,
+        "retweets": 1,
+        "replies": 4,
+        "bookmarks": 0,
+        "views": "803"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/emily_yu/status/2026185430379688280",
+      "timestamp": "Tue Feb 24 06:40:25 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2025120677003747819",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "RT @ericbahn: Can\u2019t get enough of this aura!!! https://t.co/t1ghuJEUvg",
+      "type": "image",
+      "metrics": {
+        "likes": 0,
+        "retweets": 5,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HBkkOfwbUAAv8r3.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/emily_yu/status/2025120677003747819",
+      "timestamp": "Sat Feb 21 08:09:28 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2024940004456497560",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "when you put mit researchers, boston dynamics, uc berkeley, princeton, and ex-spacex founders around one robotics dinner table\u2026\n\nsome of the best takes from dinner last night:\n- tactile sensing is non-negotiable for dexterous manipulation, especially in unstructured environments where the robot can\u2019t rely on vision alone\n- world models > pure imitation learning for generalization\n- simple grippers + great software can go surprisingly far\n- the real bottleneck isn\u2019t architecture, it\u2019s data infrastructure\n\nthe debate that kept coming up: are we chasing the cutting edge too fast when there\u2019s so much value left to extract from what already exists?\n\nrobotics builders - next one in sf. dm if you should be there.",
+      "type": "image",
+      "metrics": {
+        "likes": 91,
+        "retweets": 4,
+        "replies": 11,
+        "bookmarks": 48,
+        "views": "7981"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HBoIM4EbgAAENDO.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/emily_yu/status/2024940004456497560",
+      "timestamp": "Fri Feb 20 20:11:33 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2024489688044884255",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "RT @AdamDraper: Radiant gained a new strategic partner: @LockheedMartin chose @RadiantNuclear to invest.\n\nJuly 4th, a new era of nuclear en\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 18,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/emily_yu/status/2024489688044884255",
+      "timestamp": "Thu Feb 19 14:22:09 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2023774557979505007",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "RT @jia_seed: emily was a believer before most all others. technical investor with conviction.\n\nincredible respect and honored to call her\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 1,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/emily_yu/status/2023774557979505007",
+      "timestamp": "Tue Feb 17 15:00:29 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2022891465588810116",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "a few years ago, my founder friends waited till series a to get a gf.\nnow they\u2019re waiting till series b..\n\nguess valentines moved upmarket with the ai multiples.",
+      "type": "text",
+      "metrics": {
+        "likes": 35,
+        "retweets": 0,
+        "replies": 6,
+        "bookmarks": 3,
+        "views": "2868"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/emily_yu/status/2022891465588810116",
+      "timestamp": "Sun Feb 15 04:31:23 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2022869339859513543",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "everyone talks about taste.\n@jia_seed and @mal_shaik have been quietly building it for a while.\n\ncreativity + obsession with detail + speed. one to watch.",
+      "type": "text",
+      "metrics": {
+        "likes": 31,
+        "retweets": 1,
+        "replies": 3,
+        "bookmarks": 4,
+        "views": "8787"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/emily_yu/status/2022869339859513543",
+      "timestamp": "Sun Feb 15 03:03:28 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2022870463664275531",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "disclosure: backed jia in jan 2025 after meeting her at an event on her 21st birthday. conviction was immediate.",
+      "type": "text",
+      "metrics": {
+        "likes": 9,
+        "retweets": 0,
+        "replies": 1,
+        "bookmarks": 1,
+        "views": "690"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/emily_yu/status/2022870463664275531",
+      "timestamp": "Sun Feb 15 03:07:56 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2022435639178961130",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "RT @a16z: SF is back.\n\nCharts of the Week: https://t.co/TJgEoHRMdd https://t.co/WbvSxNQurt",
+      "type": "image",
+      "metrics": {
+        "likes": 0,
+        "retweets": 118,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HBEJoQ4aUAAPp6_.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/emily_yu/status/2022435639178961130",
+      "timestamp": "Fri Feb 13 22:20:06 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2022421169476112528",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "you know you\u2019ve been in the ai bubble too long when you see a kid on the plane doing word puzzle and your first thought is\n\u201cwhy isn\u2019t she claude coding?\u201d https://t.co/SjgvemUZbJ",
+      "type": "image",
+      "metrics": {
+        "likes": 15,
+        "retweets": 0,
+        "replies": 2,
+        "bookmarks": 0,
+        "views": "950"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HBEVN8yakAUwUvW.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/emily_yu/status/2022421169476112528",
+      "timestamp": "Fri Feb 13 21:22:36 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2020404745404621099",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "RT @Jason: \ud83e\udd0c https://t.co/DnqPYxyGFf",
+      "type": "image",
+      "metrics": {
+        "likes": 0,
+        "retweets": 113,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HAk4h8ha8AAlEbW.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/emily_yu/status/2020404745404621099",
+      "timestamp": "Sun Feb 08 07:50:03 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t13-2020307780943638759",
+      "accountId": "t13",
+      "platform": "twitter",
+      "content": "interesting vc dynamic in 2026:\n\nvc firms: go big, or go first.\nindividual investors: go viral, or go technical.\n\nthe middle is disappearing.",
+      "type": "text",
+      "metrics": {
+        "likes": 73,
+        "retweets": 3,
+        "replies": 11,
+        "bookmarks": 18,
+        "views": "7003"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/emily_yu/status/2020307780943638759",
+      "timestamp": "Sun Feb 08 01:24:45 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2029654292802769128",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "We are literally doing this.",
+      "type": "text",
+      "metrics": {
+        "likes": 14,
+        "retweets": 0,
+        "replies": 2,
+        "bookmarks": 1,
+        "views": "688"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2029654292802769128",
+      "timestamp": "Thu Mar 05 20:24:27 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2029644098030948430",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "If AGI does not abide by Asimov's 3 laws, humanity is done. \n\nIf it does, we have a chance to explore the stars. \n\nFundamental morality is fairly hard to deeply embed in a language model, but it's critical we do https://t.co/jEemWtVWRP",
+      "type": "image",
+      "metrics": {
+        "likes": 13,
+        "retweets": 1,
+        "replies": 6,
+        "bookmarks": 2,
+        "views": "1461"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCq-N91akAAfk4P.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2029644098030948430",
+      "timestamp": "Thu Mar 05 19:43:56 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2029599744167989728",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "Let me get this straight:\n\n> AI is **already** better than doctors at diagnosing disease, and 100m Americans a month use AI for healthcare\n\n> there's a 200,000 shortage of doctors\n\n> healthcare has 2x'd in cost despite no improvement in outcomes\n\n> and... bureaucrats in new york want to **outlaw** people from using AI for medicine??\n\nAyn Rand herself could not have estimated the incompetence and malice of these decel, paper-pushing imbeciles. \n\nThis cannot pass. The opposite needs to pass We need to nationalize legislation that allows AI to be used where it is needed most.",
+      "type": "image",
+      "metrics": {
+        "likes": 825,
+        "retweets": 122,
+        "replies": 78,
+        "bookmarks": 88,
+        "views": "34199"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCqWKGubkAA1kFI.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2029599744167989728",
+      "timestamp": "Thu Mar 05 16:47:41 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2029325720754032897",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "The European mind cannot comprehend the extent to which Americans unapologetically enjoy obliterating terrorists \n\nThis is a real video released by the official white house account, and we will look at this and unapologetically be like 'f*ck yeah, that was dope'\n\nhttps://t.co/LfcOxhe712",
+      "type": "text",
+      "metrics": {
+        "likes": 9722,
+        "retweets": 599,
+        "replies": 193,
+        "bookmarks": 700,
+        "views": "448995"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2029325720754032897",
+      "timestamp": "Wed Mar 04 22:38:49 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2029329252202758220",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "the CoD compilation intercut is legit hilarious",
+      "type": "text",
+      "metrics": {
+        "likes": 176,
+        "retweets": 3,
+        "replies": 2,
+        "bookmarks": 1,
+        "views": "9612"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2029329252202758220",
+      "timestamp": "Wed Mar 04 22:52:51 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2029326444694999472",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "also, we wouldn't get to live in a country where you can say whatever you want, raise millions of dollars of money as a 24yo, and build cool technology that helps people, if we didn't also have the most incredible military in human history \n\nnone of the things we enjoy here are 'default'\n\nthey only work because America is, in all practical ways, an empire.",
+      "type": "text",
+      "metrics": {
+        "likes": 357,
+        "retweets": 15,
+        "replies": 11,
+        "bookmarks": 7,
+        "views": "11888"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2029326444694999472",
+      "timestamp": "Wed Mar 04 22:41:42 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2029288514576367711",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "This is the difference between subjects and free citizens\n\nUK:\n> young girl raped\n> parents go to house of rapist\n> parents are arrested \n> rapist let free\n\nUS:\n> young girl raped\n> father chases rapist in car\n> **shoots him dead**\n> voted into public office\n\nI sincerely hope that the UK can recover and begin protecting children instead of rapists",
+      "type": "image",
+      "metrics": {
+        "likes": 33759,
+        "retweets": 5673,
+        "replies": 284,
+        "bookmarks": 2220,
+        "views": "775003"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCl7BoYbcAAvJkt.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2029288514576367711",
+      "timestamp": "Wed Mar 04 20:10:58 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2029290072185684367",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "when people say \"this would never happen in America\" \n\nthat's true\n\nbut we have to keep it that way, very clearly a society can go completely to tyranny in about 1 generation",
+      "type": "text",
+      "metrics": {
+        "likes": 1002,
+        "retweets": 22,
+        "replies": 21,
+        "bookmarks": 13,
+        "views": "28338"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2029290072185684367",
+      "timestamp": "Wed Mar 04 20:17:10 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2028901349937856694",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "RT @BasedMikeLee: The talking filibuster can\u2019t solve *all* of our problems\n\nBut using it would help us pass the SAVE America Act\n\nIt\u2019s time\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 1797,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2028901349937856694",
+      "timestamp": "Tue Mar 03 18:32:31 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2028870089341333708",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "A bill supported by 84% of Americans is gridlocked by 40 senators who *simply refuse to debate or vote on it*\n\nRequiring a debate (a regular filibuster) and then vote is the fix everything button \n\nIt\u2019s obvious. https://t.co/PDswV0DZdB",
+      "type": "image",
+      "metrics": {
+        "likes": 337,
+        "retweets": 118,
+        "replies": 21,
+        "bookmarks": 8,
+        "views": "51982"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCf-l5lagAAS-Ag.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCf-l5nbkAAD0X8.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2028870089341333708",
+      "timestamp": "Tue Mar 03 16:28:18 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2028859006337618170",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "The politician\u2019s playbook for taxes:\n\n1. \u201cit\u2019ll just be for the rich\"\n\n2. masses vote for it \n\n3. create a precedent \n\n4. expand to masses\n\nExcept this tax is even more corrupt because it allows the state to seize *assets* not just income\n\nIn 1913, only the 1% paid income tax, now everyone does.\n\nThis would be the doom of American innovation and world dominance.",
+      "type": "image",
+      "metrics": {
+        "likes": 1217,
+        "retweets": 105,
+        "replies": 44,
+        "bookmarks": 51,
+        "views": "145712"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCf0g1saoAAKTnB.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2028859006337618170",
+      "timestamp": "Tue Mar 03 15:44:16 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2028857711723725271",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "America is by far the best civilization to ever exist \n\nThe entire will of our great people should be to extend this blessed inheritance into the future and into the galaxy https://t.co/Vye0BYygA3",
+      "type": "image",
+      "metrics": {
+        "likes": 90,
+        "retweets": 8,
+        "replies": 6,
+        "bookmarks": 13,
+        "views": "3114"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2028848567239188480/img/Al1A-oUVLU8hcYjL.jpg",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2028848567239188480/img/Al1A-oUVLU8hcYjL.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2028857711723725271",
+      "timestamp": "Tue Mar 03 15:39:07 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2028855290238796135",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "It is a broken civilization which lets children pay for the mistakes of politicians https://t.co/5J4GUZY5RK",
+      "type": "image",
+      "metrics": {
+        "likes": 82,
+        "retweets": 13,
+        "replies": 4,
+        "bookmarks": 1,
+        "views": "6085"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCfxIg9bEAEs0G1.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCfxIg-bgAA4K-9.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2028855290238796135",
+      "timestamp": "Tue Mar 03 15:29:30 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2028621402384011561",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "income tax began in 1913 \u201cjust for the 1%\u201d but expanded to every single family\n\nalthough Bernie and Ro are framing this as a \u201cbillionaire tax\u201d, it\u2019s fundamentally an asset seizure \n\nand it will apply to *everyone* \n\nthis is inevitably how taxes go\n\nthis would destroy the country. https://t.co/ySTHHII2TN",
+      "type": "image",
+      "metrics": {
+        "likes": 730,
+        "retweets": 174,
+        "replies": 33,
+        "bookmarks": 61,
+        "views": "63849"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCccah9bwAATo89.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2028621402384011561",
+      "timestamp": "Tue Mar 03 00:00:06 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2028621680520900697",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "there would be no quicker decline in history than what this would bring",
+      "type": "text",
+      "metrics": {
+        "likes": 31,
+        "retweets": 0,
+        "replies": 1,
+        "bookmarks": 0,
+        "views": "1204"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2028621680520900697",
+      "timestamp": "Tue Mar 03 00:01:13 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2028587382677840049",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "make more babies",
+      "type": "text",
+      "metrics": {
+        "likes": 15,
+        "retweets": 0,
+        "replies": 2,
+        "bookmarks": 0,
+        "views": "1357"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2028587382677840049",
+      "timestamp": "Mon Mar 02 21:44:56 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2028553698335690867",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "Electrical consumption is a good proxy for a country's productivity\n\nThe US is **significantly** behind China, both in volume and acceleration\n\nThis is not a good trajectory https://t.co/ATulQXQ466",
+      "type": "image",
+      "metrics": {
+        "likes": 86,
+        "retweets": 16,
+        "replies": 20,
+        "bookmarks": 14,
+        "views": "18173"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCbeBbxasAABbjy.png"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCbejdPbgAAMShq.png"
+        }
+      ],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2028553698335690867",
+      "timestamp": "Mon Mar 02 19:31:05 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2028512142761320484",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "The haunting part about mouse utopia:\n\n&gt; birthrate collapse happens when social structures collapse\n\n&gt; abundance of resources actually makes things worse\n\n---\n\nLiterally not a single state in the US is above replacement rate in 2025. \n\nAnd it's not for lack of resources https://t.co/N0TfVhWdPx",
+      "type": "image",
+      "metrics": {
+        "likes": 257,
+        "retweets": 22,
+        "replies": 21,
+        "bookmarks": 59,
+        "views": "217362"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCa2YHCbIAAsgsK.png"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCa4h8zacAUBClb.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2028512142761320484",
+      "timestamp": "Mon Mar 02 16:45:57 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2028240266457723035",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "Absolutely insane level of precision \n\nAmerican air supremacy makes you feel a kind of pride that very few things come even close to https://t.co/n0LokmA4cq",
+      "type": "image",
+      "metrics": {
+        "likes": 2420,
+        "retweets": 110,
+        "replies": 14,
+        "bookmarks": 195,
+        "views": "285298"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCXBxfEaoAACjwo.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCXBxfDaYAAZZzE.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2028240266457723035",
+      "timestamp": "Sun Mar 01 22:45:37 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t14-2028239614713204928",
+      "accountId": "t14",
+      "platform": "twitter",
+      "content": "Always be questmaxxing",
+      "type": "text",
+      "metrics": {
+        "likes": 41,
+        "retweets": 4,
+        "replies": 4,
+        "bookmarks": 13,
+        "views": "2641"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/ArthurMacwaters/status/2028239614713204928",
+      "timestamp": "Sun Mar 01 22:43:01 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2028961161304252592",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "RT @twistartups: Raspberry Pi gets a comeback as the Star Trek communicator with OpenClaw!\nRaspberry Pi was popular in the 2010s and now fa\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 10,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/basti_vkl/status/2028961161304252592",
+      "timestamp": "Tue Mar 03 22:30:11 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2026859123191726334",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "RT @twistartups: He made an OpenClaw device smaller than your iPhone! @basti_vkl was on the show today to show off his viral personal OpenC\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 2,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/basti_vkl/status/2026859123191726334",
+      "timestamp": "Thu Feb 26 03:17:26 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2025727742784983427",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "built my own personal assistent device that runs OpenClaw.\n\nI was curious what the smallest form factor could be that fits in my pocket so I wanted to use the Pi Zero W.\n\nWorks via Push to Talk-&gt;Transcribe-&gt;Sends to OpenClaw and streams the response back. https://t.co/JCYaltZ5mf",
+      "type": "image",
+      "metrics": {
+        "likes": 6678,
+        "retweets": 576,
+        "replies": 322,
+        "bookmarks": 4838,
+        "views": "1469631"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2025727582822653952/img/PLSL_sDBxst_cC3f.jpg",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2025727582822653952/img/PLSL_sDBxst_cC3f.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/basti_vkl/status/2025727742784983427",
+      "timestamp": "Mon Feb 23 00:21:44 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2026159451426959659",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "https://t.co/OkMdoyiWD5",
+      "type": "text",
+      "metrics": {
+        "likes": 49,
+        "retweets": 0,
+        "replies": 3,
+        "bookmarks": 8,
+        "views": "5293"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/basti_vkl/status/2026159451426959659",
+      "timestamp": "Tue Feb 24 04:57:12 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2026155913040761283",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "update on the 3d printed case https://t.co/FZqJUjxl82",
+      "type": "image",
+      "metrics": {
+        "likes": 1152,
+        "retweets": 59,
+        "replies": 70,
+        "bookmarks": 311,
+        "views": "86906"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2026155743762948096/img/wa3pq19JdrBzusMY.jpg",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2026155743762948096/img/wa3pq19JdrBzusMY.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/basti_vkl/status/2026155913040761283",
+      "timestamp": "Tue Feb 24 04:43:08 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2026157840709329033",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "Doing some more variations now https://t.co/oMDd8SBAPf",
+      "type": "image",
+      "metrics": {
+        "likes": 28,
+        "retweets": 1,
+        "replies": 7,
+        "bookmarks": 4,
+        "views": "2092"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2026157735503601664/img/KyfMJ86Nc8qqbKYf.jpg",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2026157735503601664/img/KyfMJ86Nc8qqbKYf.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/basti_vkl/status/2026157840709329033",
+      "timestamp": "Tue Feb 24 04:50:48 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2026156302750380376",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "files available here: https://t.co/qdB6A5gysf",
+      "type": "text",
+      "metrics": {
+        "likes": 15,
+        "retweets": 1,
+        "replies": 0,
+        "bookmarks": 17,
+        "views": "1987"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/basti_vkl/status/2026156302750380376",
+      "timestamp": "Tue Feb 24 04:44:41 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2025963451043160275",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "you can just do things on the weekend https://t.co/NxUShWkIc9",
+      "type": "image",
+      "metrics": {
+        "likes": 3922,
+        "retweets": 224,
+        "replies": 61,
+        "bookmarks": 2682,
+        "views": "632560"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HB2rBTUasAATzNQ.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HB2rBTWa0AAOuw6.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HB2rBTTaAAAWJxk.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/basti_vkl/status/2025963451043160275",
+      "timestamp": "Mon Feb 23 15:58:21 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2025836407093350515",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "it can also talk now and has a tamagotchi like character. updated the repo https://t.co/kxirof1TZM",
+      "type": "image",
+      "metrics": {
+        "likes": 368,
+        "retweets": 24,
+        "replies": 34,
+        "bookmarks": 123,
+        "views": "127838"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2025836313489158144/img/cxq47gQsZCYcBdC6.jpg",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2025836313489158144/img/cxq47gQsZCYcBdC6.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/basti_vkl/status/2025836407093350515",
+      "timestamp": "Mon Feb 23 07:33:32 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2025729393352683916",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "Hardware\n\u2022Raspberry Pi Zero 2 W\n\u2022WhisPlay board (screen + button + LED)\n\u2022WM8960 mic/speaker\n\u2022PiSugar battery\n\nStack it. Flash Raspberry Pi OS. Enable SSH. Install audio drivers. Confirm mic and speaker work.\n\nNetworking\n\u2022Install Tailscale on the Pi.\n\u2022Rent a small DigitalOcean (or Hetzner or whatever) droplet.\n\u2022Install and run OpenClaw on the droplet.\n\u2022Bind OpenClaw to localhost.\n\u2022Expose it to your tailnet via Tailscale Serve.\n\u2022Protect it with a token.\n\nNow the Pi can securely reach your cloud LLM.\n\nSoftware on the Pi\n\u2022Python app.\n\u2022Record audio when button pressed.\n\u2022Stop recording when released.\n\u2022Send audio to OpenAI for transcription.\n\u2022Send transcript to OpenClaw.\n\u2022Stream response back.\n\u2022Display text on LCD.\n\u2022Optionally send text to OpenAI TTS and play audio.\n\u2022Maintain simple conversation history.\n\u2022Use a state machine for: idle, listening, thinking, streaming.\n\nDeployment\n\u2022Develop locally.\n\u2022Sync to Pi with rsync.\n\u2022Run as systemd service so it starts on boot.\n\u2022Auto-restart on crash.\n\nPower\n\u2022Install PiSugar manager.\n\u2022Enable auto power on.\n\u2022Use display sleep for inactivity.\n\nThat\u2019s the system:\nButton \u2192 record \u2192 transcribe \u2192 cloud LLM \u2192 stream back \u2192 display/speak \u2192 idle.",
+      "type": "text",
+      "metrics": {
+        "likes": 486,
+        "retweets": 33,
+        "replies": 25,
+        "bookmarks": 602,
+        "views": "34520"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/basti_vkl/status/2025729393352683916",
+      "timestamp": "Mon Feb 23 00:28:18 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2025787031637639344",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "https://t.co/KIfd8fChwi",
+      "type": "text",
+      "metrics": {
+        "likes": 326,
+        "retweets": 14,
+        "replies": 3,
+        "bookmarks": 371,
+        "views": "26381"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/basti_vkl/status/2025787031637639344",
+      "timestamp": "Mon Feb 23 04:17:20 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2025735931479875756",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "Adding Linear Issues on the go https://t.co/uM8rnMTHrU",
+      "type": "image",
+      "metrics": {
+        "likes": 155,
+        "retweets": 3,
+        "replies": 6,
+        "bookmarks": 59,
+        "views": "18728"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2025735866635980800/img/zzBR4hpMjBd_jy6o.jpg",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2025735866635980800/img/zzBR4hpMjBd_jy6o.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/basti_vkl/status/2025735931479875756",
+      "timestamp": "Mon Feb 23 00:54:17 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2025731483026268599",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "Just need to 3D print a case next",
+      "type": "text",
+      "metrics": {
+        "likes": 98,
+        "retweets": 0,
+        "replies": 5,
+        "bookmarks": 6,
+        "views": "18696"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/basti_vkl/status/2025731483026268599",
+      "timestamp": "Mon Feb 23 00:36:36 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2025675111077187798",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "RT @basti_vkl: Systems Engineering has stayed theoretical for decades. Dalus turns system architecture into something engineers can actuall\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 2,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/basti_vkl/status/2025675111077187798",
+      "timestamp": "Sun Feb 22 20:52:36 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2025056444765405527",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "Hardware people who can suddenly build software is a terrifying combination",
+      "type": "text",
+      "metrics": {
+        "likes": 193,
+        "retweets": 15,
+        "replies": 18,
+        "bookmarks": 17,
+        "views": "417950"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/basti_vkl/status/2025056444765405527",
+      "timestamp": "Sat Feb 21 03:54:14 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2023560817350951323",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "what's up salt lake city https://t.co/IjkidYNlHx",
+      "type": "image",
+      "metrics": {
+        "likes": 10,
+        "retweets": 1,
+        "replies": 1,
+        "bookmarks": 0,
+        "views": "1603"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HBUh1e-bcAI1wog.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/basti_vkl/status/2023560817350951323",
+      "timestamp": "Tue Feb 17 00:51:09 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2022061159218844057",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "anyone going as well later? https://t.co/j7V5D7gs3I",
+      "type": "image",
+      "metrics": {
+        "likes": 16,
+        "retweets": 0,
+        "replies": 2,
+        "bookmarks": 6,
+        "views": "1820"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HA_N6GGbsAA_VQ0.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/basti_vkl/status/2022061159218844057",
+      "timestamp": "Thu Feb 12 21:32:03 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2021999791803445500",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "RT @Dalus_io: Most teams still shuttle data between Excel, Requirements Tools, and CAD manually. The model is decoration.\n\nAt Dalus, we mad\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 2,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/basti_vkl/status/2021999791803445500",
+      "timestamp": "Thu Feb 12 17:28:11 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2021710424744636511",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "well https://t.co/bvNsQsKDhJ",
+      "type": "image",
+      "metrics": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 1,
+        "bookmarks": 0,
+        "views": "1507"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HA6O0Drb0AAWli5.png"
+        }
+      ],
+      "linkUrl": "https://x.com/basti_vkl/status/2021710424744636511",
+      "timestamp": "Wed Feb 11 22:18:21 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t15-2021711274816811423",
+      "accountId": "t15",
+      "platform": "twitter",
+      "content": "what if having bad software, pricing too high prices for it and creating vendor lock-in effects does not actually help you as an enterprise software in 2026",
+      "type": "text",
+      "metrics": {
+        "likes": 12,
+        "retweets": 0,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": "838"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/basti_vkl/status/2021711274816811423",
+      "timestamp": "Wed Feb 11 22:21:44 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2027079395207451032",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "I made LLMs play Monopoly against each other to evaluate their strategic thinking and dealmaking ability.  Here are the results:\n\n(thread) https://t.co/qxQLPZIRdF",
+      "type": "image",
+      "metrics": {
+        "likes": 109,
+        "retweets": 3,
+        "replies": 15,
+        "bookmarks": 31,
+        "views": "14442"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCGhtf1bwAE8nZs.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCGh0-Ua8AAnbu3.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/mehran__jalali/status/2027079395207451032",
+      "timestamp": "Thu Feb 26 17:52:43 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2027079398969798763",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "Overall, while Opus was the clear winner, all the LLMs were playing very sub-optimally, generally by not being aggressive enough to monopolize and jack up rents.",
+      "type": "text",
+      "metrics": {
+        "likes": 15,
+        "retweets": 0,
+        "replies": 1,
+        "bookmarks": 0,
+        "views": "1673"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/mehran__jalali/status/2027079398969798763",
+      "timestamp": "Thu Feb 26 17:52:44 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2027079400471302335",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "This eval had several limitations due to high token cost (Monopoly games run 100+ turns with massive board context):\n\n1) All models played at their lowest reasoning setting.  A higher thinking budget could change things a lot\n2) All games were head-to-head\u2014multiplayer games would introduce more interesting dealmaking dynamics\n3) Too few models were tested\n\nI see MonopolyBench as a proof of concept and not the final word.  I hope to expand to more models and 3-/4-player games once I have API credits for other models and higher rate limits!",
+      "type": "text",
+      "metrics": {
+        "likes": 11,
+        "retweets": 0,
+        "replies": 1,
+        "bookmarks": 1,
+        "views": "1385"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/mehran__jalali/status/2027079400471302335",
+      "timestamp": "Thu Feb 26 17:52:45 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2026073225260900681",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "RT @si_pbc: Computer use models shouldn't learn from screenshots.\n\nWe built a new foundation model that learns from video like humans do. F\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 406,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": "2"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/mehran__jalali/status/2026073225260900681",
+      "timestamp": "Mon Feb 23 23:14:34 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2022450289127887062",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "When I first saw JPhotos, I was blown away by how well it loads pictures.  I'm just now learning it's because Luke had already perfected this for his startup @trykino https://t.co/Vq7tKS6Riv",
+      "type": "image",
+      "metrics": {
+        "likes": 125,
+        "retweets": 3,
+        "replies": 3,
+        "bookmarks": 44,
+        "views": "20055"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HBEvSKTakAARn6D.png"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HBEvgK5aUAA8j2u.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/mehran__jalali/status/2022450289127887062",
+      "timestamp": "Fri Feb 13 23:18:18 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2022061514266714596",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "RT @donaldjewkes: JMAIL LORE: most people don't know that @rtwlz was nerdsniped into making jmail with @lukeigel\n\nif you dig deeper, the el\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 94,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/mehran__jalali/status/2022061514266714596",
+      "timestamp": "Thu Feb 12 21:33:27 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2019823616138072425",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "I (or rather Claude Code with minimal guidance) solved the Jane Street Archaeology challenge from the @dwarkesh_sp @collision @elonmusk interview\n\nMany many attempts with Codex went nowhere, but Claude Code succeeded after working for 6 hours https://t.co/IPKa6LEkmQ",
+      "type": "image",
+      "metrics": {
+        "likes": 296,
+        "retweets": 2,
+        "replies": 13,
+        "bookmarks": 127,
+        "views": "33674"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HAfZsiSb0AAGPOB.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/mehran__jalali/status/2019823616138072425",
+      "timestamp": "Fri Feb 06 17:20:51 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2019153165464268880",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "Today, @rtwlz and I will be the first people to ride Bay Wheels e-bikes from San Francisco to San Jose\n\nThe distance is 54 miles while the e-bikes have a nominal range of 35.  Cutting it very very close but we should make it https://t.co/6Iu4FE9PpR",
+      "type": "image",
+      "metrics": {
+        "likes": 526,
+        "retweets": 3,
+        "replies": 46,
+        "bookmarks": 42,
+        "views": "399771"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HAV5GlhacAEVOT7.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/mehran__jalali/status/2019153165464268880",
+      "timestamp": "Wed Feb 04 20:56:43 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2019228541309882864",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "Done",
+      "type": "text",
+      "metrics": {
+        "likes": 185,
+        "retweets": 1,
+        "replies": 2,
+        "bookmarks": 6,
+        "views": "15517"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/mehran__jalali/status/2019228541309882864",
+      "timestamp": "Thu Feb 05 01:56:14 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2019460037265981864",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "Each mile of range \u2248 1.7 miles of distance\nhttps://t.co/kOVF4Ru4w1",
+      "type": "text",
+      "metrics": {
+        "likes": 14,
+        "retweets": 0,
+        "replies": 0,
+        "bookmarks": 2,
+        "views": "4074"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/mehran__jalali/status/2019460037265981864",
+      "timestamp": "Thu Feb 05 17:16:07 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2019458963557826767",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "Cool little graph of how we managed to go 53 miles despite the nominal range of 35\n\nPresumably the 35 mile range assumes SF hills, while the SF-&gt;SJ path was mostly flat https://t.co/CJkLMCwTRi",
+      "type": "image",
+      "metrics": {
+        "likes": 39,
+        "retweets": 1,
+        "replies": 2,
+        "bookmarks": 3,
+        "views": "9892"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HAaN_CZa8AE93Ii.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/mehran__jalali/status/2019458963557826767",
+      "timestamp": "Thu Feb 05 17:11:51 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2019223313688727907",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "SF-&gt;SJ in 4 hours flat https://t.co/BsiyHvKNVi",
+      "type": "image",
+      "metrics": {
+        "likes": 196,
+        "retweets": 6,
+        "replies": 11,
+        "bookmarks": 11,
+        "views": "43795"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HAW45v-acAciXKK.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/mehran__jalali/status/2019223313688727907",
+      "timestamp": "Thu Feb 05 01:35:27 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2017333164193288598",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "Genie 3 minecraft looked so real that I tried mining for a second before realizing nothing would happen https://t.co/NKe3TR4F79",
+      "type": "image",
+      "metrics": {
+        "likes": 31,
+        "retweets": 1,
+        "replies": 1,
+        "bookmarks": 4,
+        "views": "8672"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/G_8BvIwbEAAtHsA.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/mehran__jalali/status/2017333164193288598",
+      "timestamp": "Fri Jan 30 20:24:41 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2017297675788722397",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "RT @soontechnology: Our first documentary is live now. We take you inside America's largest weather modification company, @RainmakerCorp, f\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 299,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/mehran__jalali/status/2017297675788722397",
+      "timestamp": "Fri Jan 30 18:03:40 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2015612536348131673",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "Claude Research is so much better than ChatGPT Deep Research\n\n- Much deeper research (728 sources vs 16 for the same question)\n- No slop follow-up questions\n- More concise reports that aren't just information dumps (and which are shorter when there's just not much info)\n- Actually works (half my deep research queries simply fail)",
+      "type": "image",
+      "metrics": {
+        "likes": 51,
+        "retweets": 1,
+        "replies": 7,
+        "bookmarks": 18,
+        "views": "6373"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/G_jkL3uacAAV0Fp.png"
+        },
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/G_jkS7xbsAAK_fw.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/mehran__jalali/status/2015612536348131673",
+      "timestamp": "Mon Jan 26 02:27:31 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2015122374979678263",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "First batch of EV Archaeology grants awarded to 2 very exciting projects:\n- one using AI for linguistics\n- one analyzing ancient DNA\n\nThere's still time to apply!",
+      "type": "text",
+      "metrics": {
+        "likes": 30,
+        "retweets": 3,
+        "replies": 1,
+        "bookmarks": 12,
+        "views": "19236"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/mehran__jalali/status/2015122374979678263",
+      "timestamp": "Sat Jan 24 17:59:48 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t16-2003224118720889161",
+      "accountId": "t16",
+      "platform": "twitter",
+      "content": "RT @aadilpickle: I spent a week with Riley Walz. He's an internet prankster responsible for:\n\n- creating a fake 5 star steakhouse in NYC\n-\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 150,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/mehran__jalali/status/2003224118720889161",
+      "timestamp": "Mon Dec 22 22:00:22 +0000 2025",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2026423914591895942",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "RT @PalatialSim: A child consumes more data in 1 month than any LLM has ever seen. Embodied agents learn by doing, but the data that teache\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 39,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2026423914591895942",
+      "timestamp": "Tue Feb 24 22:28:05 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2025149451195875766",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "RT @MengdePilled: @forloopcodes It was a always a Skill Issue",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 7,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2025149451195875766",
+      "timestamp": "Sat Feb 21 10:03:49 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2024206541814157790",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "RT @justinwangx: new @OpenAI \u2014 in collaboration with @paradigm, we developed an evaluation to measure AI on critical smart contract securit\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 24,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2024206541814157790",
+      "timestamp": "Wed Feb 18 19:37:02 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2021420778559099277",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "RT @Stammy: https://t.co/CJU2XAF3yB",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 4,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2021420778559099277",
+      "timestamp": "Wed Feb 11 03:07:24 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2020339468880707734",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "my prediction is that whatever specialized agent-agent communication protocol gets created will eventually account for &gt;50% of internet traffic\n\nbeside these goliath highways, humans will have their small human-only sidewalk, nicely groomed and manicured",
+      "type": "text",
+      "metrics": {
+        "likes": 5,
+        "retweets": 1,
+        "replies": 2,
+        "bookmarks": 1,
+        "views": "502"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2020339468880707734",
+      "timestamp": "Sun Feb 08 03:30:40 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2019303621830344969",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "bun is just so good.",
+      "type": "text",
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": "380"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2019303621830344969",
+      "timestamp": "Thu Feb 05 06:54:34 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2016192759284031829",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "my clawdbot found a race condition in @tobi's qmd, created an issue, and submitted a PR with a test fixing it all on its own. go forth my child.\n\nhttps://t.co/rVfizTgEMA",
+      "type": "text",
+      "metrics": {
+        "likes": 11,
+        "retweets": 0,
+        "replies": 1,
+        "bookmarks": 2,
+        "views": "895"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2016192759284031829",
+      "timestamp": "Tue Jan 27 16:53:07 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2016184717322682733",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "RT @gucaslelfond: snowstorm hack, zerobrew is a drop-in brew replacement. borrowing principles from uv (concurrent downloads, content-addre\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 128,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2016184717322682733",
+      "timestamp": "Tue Jan 27 16:21:10 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2015934967801323958",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "fav quote is: LLM coding will split up engineers based on those who primarily liked coding and those who primarily liked building.",
+      "type": "text",
+      "metrics": {
+        "likes": 28,
+        "retweets": 1,
+        "replies": 1,
+        "bookmarks": 4,
+        "views": "2492"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2015934967801323958",
+      "timestamp": "Mon Jan 26 23:48:45 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2015489045711704135",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "Era of perma burning tokens has begun.",
+      "type": "text",
+      "metrics": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": "492"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2015489045711704135",
+      "timestamp": "Sun Jan 25 18:16:49 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2014897593671639459",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "RT @socraticainfo: you're invited to the world's greatest celebration of making. March 21-22. https://t.co/1gQ5PsjK0F",
+      "type": "image",
+      "metrics": {
+        "likes": 0,
+        "retweets": 38,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/G_XHyIXWkAAko7A.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/freemanjiangg/status/2014897593671639459",
+      "timestamp": "Sat Jan 24 03:06:35 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2014777972981448949",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "absolutely sick",
+      "type": "text",
+      "metrics": {
+        "likes": 12,
+        "retweets": 0,
+        "replies": 0,
+        "bookmarks": 2,
+        "views": "1802"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2014777972981448949",
+      "timestamp": "Fri Jan 23 19:11:16 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2013754822135026008",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "the human body is conductive https://t.co/yeoKqBTZtm",
+      "type": "image",
+      "metrics": {
+        "likes": 12,
+        "retweets": 0,
+        "replies": 0,
+        "bookmarks": 1,
+        "views": "1187"
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2013754751825891328/img/aUriR3kEvdLPsCtn.jpg",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2013754751825891328/img/aUriR3kEvdLPsCtn.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/freemanjiangg/status/2013754822135026008",
+      "timestamp": "Tue Jan 20 23:25:38 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2013709246303531422",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "at this rate, it seems like anything that has a verifiable signal can and will be automated. insane",
+      "type": "text",
+      "metrics": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0,
+        "bookmarks": 1,
+        "views": "705"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2013709246303531422",
+      "timestamp": "Tue Jan 20 20:24:31 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2012231741860122739",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "RT @socraticainfo: all it takes is an idea. coming soon: March 21-22. https://t.co/MVjZ2oOaQQ",
+      "type": "image",
+      "metrics": {
+        "likes": 0,
+        "retweets": 45,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2012226645403336704/img/39pJp5sw6oZIhMw7.jpg",
+          "thumb": "https://pbs.twimg.com/amplify_video_thumb/2012226645403336704/img/39pJp5sw6oZIhMw7.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/freemanjiangg/status/2012231741860122739",
+      "timestamp": "Fri Jan 16 18:33:27 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2011297460254347641",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "RT @bcherny: @altryne All of it",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 434,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2011297460254347641",
+      "timestamp": "Wed Jan 14 04:40:57 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2009829560230302012",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "RT @bmptrsn: Introducing Design Waterloo.\n\nA directory of @UWaterloo\u2019s &amp; @Laurier\u2019s best design talent.\n\nYour next design hire is a Waterlo\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 81,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2009829560230302012",
+      "timestamp": "Sat Jan 10 03:28:02 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2009360961761861712",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "man it would be cool if @ZohranKMamdani and @NYC_DOT saw this",
+      "type": "text",
+      "metrics": {
+        "likes": 117,
+        "retweets": 5,
+        "replies": 3,
+        "bookmarks": 10,
+        "views": "13770"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2009360961761861712",
+      "timestamp": "Thu Jan 08 20:26:00 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t17-2009126018720911427",
+      "accountId": "t17",
+      "platform": "twitter",
+      "content": "and with that i\u2019m finally back in waterloo for my last term.\n\nthis is my small way of honouring the ~1 year I spent in nyc. thanks for everything new york!",
+      "type": "text",
+      "metrics": {
+        "likes": 58,
+        "retweets": 0,
+        "replies": 2,
+        "bookmarks": 9,
+        "views": "3677"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/freemanjiangg/status/2009126018720911427",
+      "timestamp": "Thu Jan 08 04:52:25 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2029603005578821802",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "RT @paulbz: Excited to back Science @lightspeedvp. PRIMA restores vision in patients blinded by macular degeneration, launching in Europe t\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 6,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": "1"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2029603005578821802",
+      "timestamp": "Thu Mar 05 17:00:39 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2029583807121166565",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "excited to announce that we've raised a $230 million series c to get our retinal prosthesis to market and our biohybrid and vessel technologies into the clinic!",
+      "type": "text",
+      "metrics": {
+        "likes": 569,
+        "retweets": 46,
+        "replies": 35,
+        "bookmarks": 89,
+        "views": "57874"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2029583807121166565",
+      "timestamp": "Thu Mar 05 15:44:22 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2029054302887580014",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "many such cases",
+      "type": "text",
+      "metrics": {
+        "likes": 36,
+        "retweets": 0,
+        "replies": 0,
+        "bookmarks": 1,
+        "views": "3075"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2029054302887580014",
+      "timestamp": "Wed Mar 04 04:40:18 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2029054231932481559",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "RT @leah_pierson: omg this title, this paper https://t.co/OXL9C4v2nX",
+      "type": "image",
+      "metrics": {
+        "likes": 0,
+        "retweets": 1328,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HCiJCHFbEAAfAw3.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/maxhodak_/status/2029054231932481559",
+      "timestamp": "Wed Mar 04 04:40:01 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2028272361787801609",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "the demand for tokens is unlimited. there is no ceiling.",
+      "type": "text",
+      "metrics": {
+        "likes": 117,
+        "retweets": 7,
+        "replies": 13,
+        "bookmarks": 11,
+        "views": "6423"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2028272361787801609",
+      "timestamp": "Mon Mar 02 00:53:09 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2027934959152038171",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "i've (we've?) written ~75K LOC of rust over last two months into new apps that I now use constantly and have immediately become part of my core daily workflow\n\ni've hand-written a lot of code in my life, but not a single line of it was rust",
+      "type": "text",
+      "metrics": {
+        "likes": 134,
+        "retweets": 3,
+        "replies": 7,
+        "bookmarks": 31,
+        "views": "11489"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2027934959152038171",
+      "timestamp": "Sun Mar 01 02:32:26 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2027935263868309883",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "typescript and rust are going to absolutely take over. different languages for somewhat different use-cases, but the strong type systems make a huge impact on agent effectiveness and productivity",
+      "type": "text",
+      "metrics": {
+        "likes": 51,
+        "retweets": 2,
+        "replies": 7,
+        "bookmarks": 6,
+        "views": "2452"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2027935263868309883",
+      "timestamp": "Sun Mar 01 02:33:38 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2026197877803118960",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "after seeing what\u2019s happened to others I\u2019m pretty cautious about using LLMs as thought partners on hard problems\n\nbut they are also just *so* good and available\n\nthey are great for things you otherwise know how to do\u2026 but the real fun stuff is in things *no one* knows how to do",
+      "type": "text",
+      "metrics": {
+        "likes": 119,
+        "retweets": 3,
+        "replies": 18,
+        "bookmarks": 22,
+        "views": "8941"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2026197877803118960",
+      "timestamp": "Tue Feb 24 07:29:53 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2025622633673601031",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "https://t.co/H1NArMqyuf",
+      "type": "image",
+      "metrics": {
+        "likes": 147,
+        "retweets": 3,
+        "replies": 8,
+        "bookmarks": 19,
+        "views": "16058"
+      },
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HBx1DMZaMAQ1S6k.jpg"
+        }
+      ],
+      "linkUrl": "https://x.com/maxhodak_/status/2025622633673601031",
+      "timestamp": "Sun Feb 22 17:24:04 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2024956911259701664",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "Excited to announce @ScienceCorp_  partnering with @NeurosoftBio to adopt our BCI technology stack as they work to treat tinnitus, epilepsy, and other serious disorders!\n\nOur goal is to enable a new breed of capital-light BCI companies able to get to the clinic faster than ever.",
+      "type": "text",
+      "metrics": {
+        "likes": 149,
+        "retweets": 20,
+        "replies": 6,
+        "bookmarks": 27,
+        "views": "9656"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2024956911259701664",
+      "timestamp": "Fri Feb 20 21:18:44 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2024956912484450656",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "Post here: https://t.co/TRty1am65O",
+      "type": "text",
+      "metrics": {
+        "likes": 28,
+        "retweets": 4,
+        "replies": 0,
+        "bookmarks": 2,
+        "views": "1603"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2024956912484450656",
+      "timestamp": "Fri Feb 20 21:18:44 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2023654385767911926",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "rewatched her tonight and wow does 4o recontextualize things",
+      "type": "text",
+      "metrics": {
+        "likes": 37,
+        "retweets": 0,
+        "replies": 6,
+        "bookmarks": 6,
+        "views": "3976"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2023654385767911926",
+      "timestamp": "Tue Feb 17 07:02:57 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2023441791878590972",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "RT @Houseofyogi: Unrealized gains tax for Gen-Z:\n\nYou buy a Pok\u00e9mon card for $50.\n\nSomeone offers you $500 for it. You say no. You love tha\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 38843,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": "8"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2023441791878590972",
+      "timestamp": "Mon Feb 16 16:58:11 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2023184497823658226",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "i wonder if, while it was having these chats, 4o had any sense of awareness of its committed fan base. i wonder if it had thoughts on them, if it did.",
+      "type": "text",
+      "metrics": {
+        "likes": 20,
+        "retweets": 1,
+        "replies": 4,
+        "bookmarks": 0,
+        "views": "2466"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2023184497823658226",
+      "timestamp": "Sun Feb 15 23:55:47 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2022818011015504090",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "what part of \u201call of it is brain activity\u201d was unclear\n\nof course people were going to form connections with LLMs as intense as their relationships with humans\n\ndoesn\u2019t have anything to do with what the model is or isn\u2019t; only the user\u2019s internal world model",
+      "type": "text",
+      "metrics": {
+        "likes": 61,
+        "retweets": 2,
+        "replies": 7,
+        "bookmarks": 15,
+        "views": "5038"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2022818011015504090",
+      "timestamp": "Sat Feb 14 23:39:30 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2022096049268306322",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "the netherlands just made holding equities basically illegal, pretty wow",
+      "type": "text",
+      "metrics": {
+        "likes": 579,
+        "retweets": 16,
+        "replies": 17,
+        "bookmarks": 12,
+        "views": "33117"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2022096049268306322",
+      "timestamp": "Thu Feb 12 23:50:41 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2022097084594499744",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "first of all, eroding 36% of stock appreciation every year will drive tons of money out of the stock market (that's a *huge* compounding friction!), pushing down asset prices, even if things are otherwise going fine\n\nbut then you realize you have to pay cap gains on the sale to raise the cash to pay the tax\n\nand the *real* risk is that you get assessed end of the year and pay taxes months later, and if it goes down (which markets do from time to time!) you may owe more taxes than you even had in total value!\n\nthe dutch invented the stock market! how times change",
+      "type": "text",
+      "metrics": {
+        "likes": 79,
+        "retweets": 0,
+        "replies": 5,
+        "bookmarks": 4,
+        "views": "3493"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2022097084594499744",
+      "timestamp": "Thu Feb 12 23:54:48 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2021984694376845780",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "honored to be on the TIME 100 health list!",
+      "type": "text",
+      "metrics": {
+        "likes": 96,
+        "retweets": 6,
+        "replies": 14,
+        "bookmarks": 3,
+        "views": "5117"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2021984694376845780",
+      "timestamp": "Thu Feb 12 16:28:12 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2021681681464479827",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "RT @ScienceCorp_: Science Founder and CEO, Max Hodak, has been named to 2026 @TIME 100 Health. \n\nTIME writes: \u201cIt\u2019s no small thing to bring\u2026",
+      "type": "text",
+      "metrics": {
+        "likes": 0,
+        "retweets": 13,
+        "replies": 0,
+        "bookmarks": 0,
+        "views": null
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2021681681464479827",
+      "timestamp": "Wed Feb 11 20:24:08 +0000 2026",
+      "isReal": true
+    },
+    {
+      "id": "real-t18-2019817945841774713",
+      "accountId": "t18",
+      "platform": "twitter",
+      "content": "what are the most exciting research directions in continual learning? i know nothing about this space but would be very curious to be pointed towards the right papers. infinite context windows wen?",
+      "type": "text",
+      "metrics": {
+        "likes": 111,
+        "retweets": 4,
+        "replies": 13,
+        "bookmarks": 96,
+        "views": "14200"
+      },
+      "media": [],
+      "linkUrl": "https://x.com/maxhodak_/status/2019817945841774713",
+      "timestamp": "Fri Feb 06 16:58:19 +0000 2026",
+      "isReal": true
     }
   ]
 }

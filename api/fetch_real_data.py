@@ -26,6 +26,14 @@ TWITTER_ACCOUNTS = [
     {"id": "t8", "handle": "Solar_Rebecca", "name": "Rebecca Kujawa"},
     {"id": "t9", "handle": "GridBrief", "name": "Grid Brief"},
     {"id": "t10", "handle": "CleanAirTaskFrc", "name": "Clean Air Task Force"},
+    {"id": "t11", "handle": "aphysicist", "name": "A Physicist"},
+    {"id": "t12", "handle": "fabworks_guy", "name": "Fabworks Guy"},
+    {"id": "t13", "handle": "emily_yu", "name": "Emily Yu"},
+    {"id": "t14", "handle": "ArthurMacwaters", "name": "Arthur Macwaters"},
+    {"id": "t15", "handle": "basti_vkl", "name": "Basti"},
+    {"id": "t16", "handle": "mehran__jalali", "name": "Mehran Jalali"},
+    {"id": "t17", "handle": "freemanjiangg", "name": "Freeman Jiang"},
+    {"id": "t18", "handle": "maxhodak_", "name": "Max Hodak"},
 ]
 
 HEADERS = {

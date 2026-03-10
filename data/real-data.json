@@ -130,6 +130,16 @@
       "avatar": "https://pbs.twimg.com/profile_images/1860451628018479104/8Q8IZhok_normal.jpg",
       "bio": "better living through technology",
       "category": "builder"
+    },
+    {
+      "id": "t19",
+      "handle": "typesfast",
+      "platform": "twitter",
+      "name": "Ryan Petersen",
+      "followers": 0,
+      "avatar": "",
+      "bio": "CEO Flexport. Supply chain.",
+      "category": "supply-chain"
     }
   ],
   "posts": [
